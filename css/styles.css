@@ -1,0 +1,146 @@
+body {
+    background-color: blue;
+    color: #fff;
+}
+
+footer {
+    padding-top: 100%;
+}
+
+#game-board {
+    display: block;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#obscurer {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(90, 90, 90, 0.5);
+}
+
+#obscurer.active {
+    display: block;
+}
+
+#single-jeopardy,
+#double-jeopardy,
+#final-jeopardy {
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+#single-jeopardy.active,
+#double-jeopardy.active,
+#final-jeopardy.active {
+    display: block;
+}
+
+#answer-modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    background-color: blue;
+    color: #fff;
+    font-size: 4em;
+    text-align: center;
+    box-shadow: #333 0 0 10px;
+}
+
+#answer-modal.active {
+    display: block;
+}
+
+#answer-modal p {
+    padding: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    z-index: 11;
+}
+
+#close-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15%;
+    height: 20%;
+    font-size: 0.5em;
+    cursor: pointer;
+    z-index: 12;
+}
+
+ol.categories {
+    display: block;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ol.categories li {
+    display: block;
+    float: left;
+    width: 19%;
+    height: 100%;
+    border: solid #cacaca 1px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+dl {
+    display: block;
+    float: left;
+    width: 19%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+dt,
+dd {
+    display: inline-block;
+    width: 100%;
+    height: 19%;
+    border: solid #cacaca 1px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+dt {
+    line-height: 60px;
+    background-color: blue;
+}
+
+dt.guessed {
+    color: transparent;
+    background-color: #fff;
+}
+
+dd {
+    display: none;
+}

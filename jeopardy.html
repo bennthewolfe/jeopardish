@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,162 +9,197 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <h1>Jeopardish</h1>
     </header>
-    <content id="game-board">
-        <div class="single-jeopardy">
-            <ol class="categories">
-                <li>First Category</li>
-                <li>Second Category</li>
-                <li>Third Category</li>
-                <li>Fourth Category</li>
-                <li>Fifth Category</li>
-            </ol>
-            <dl>
-                <dt class="closed unloaded">200</dt>
-                <dd></dd>
-                <dt class="closed unloaded">400</dt>
-                <dd></dd>
-                <dt class="closed unloaded">600</dt>
-                <dd></dd>
-                <dt class="closed unloaded">800</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1000</dt>
-                <dd></dd>
-            </dl>
-            <dl>
-                <dt class="closed unloaded">200</dt>
-                <dd></dd>
-                <dt class="closed unloaded">400</dt>
-                <dd></dd>
-                <dt class="closed unloaded">600</dt>
-                <dd></dd>
-                <dt class="closed unloaded">800</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1000</dt>
-                <dd></dd>
-            </dl>
-            <dl>
-                <dt class="closed unloaded">200</dt>
-                <dd></dd>
-                <dt class="closed unloaded">400</dt>
-                <dd></dd>
-                <dt class="closed unloaded">600</dt>
-                <dd></dd>
-                <dt class="closed unloaded">800</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1000</dt>
-                <dd></dd>
-            </dl>
-            <dl>
-                <dt class="closed unloaded">200</dt>
-                <dd></dd>
-                <dt class="closed unloaded">400</dt>
-                <dd></dd>
-                <dt class="closed unloaded">600</dt>
-                <dd></dd>
-                <dt class="closed unloaded">800</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1000</dt>
-                <dd></dd>
-            </dl>
-            <dl>
-                <dt class="closed unloaded">200</dt>
-                <dd></dd>
-                <dt class="closed unloaded">400</dt>
-                <dd></dd>
-                <dt class="closed unloaded">600</dt>
-                <dd></dd>
-                <dt class="closed unloaded">800</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1000</dt>
-                <dd></dd>
-            </dl>
+    <sidebar>
+        <button id="reset">Reset</button>
+        <button id="load-game">Load Game</button>
+    </sidebar>
+    <content>
+        <div id="game-board">
+            <div id="single-jeopardy" class="active">
+                <ol class="categories">
+                    <li>First Category</li>
+                    <li>Second Category</li>
+                    <li>Third Category</li>
+                    <li>Fourth Category</li>
+                    <li>Fifth Category</li>
+                </ol>
+                <dl>
+                    <dt class="">200</dt>
+                    <dd>The answer is.</dd>
+                    <dt class="">400</dt>
+                    <dd></dd>
+                    <dt class="">600</dt>
+                    <dd></dd>
+                    <dt class="">800</dt>
+                    <dd></dd>
+                    <dt class="">1000</dt>
+                    <dd></dd>
+                </dl>
+                <dl>
+                    <dt class="">200</dt>
+                    <dd></dd>
+                    <dt class="">400</dt>
+                    <dd></dd>
+                    <dt class="">600</dt>
+                    <dd></dd>
+                    <dt class="">800</dt>
+                    <dd></dd>
+                    <dt class="">1000</dt>
+                    <dd></dd>
+                </dl>
+                <dl>
+                    <dt class="">200</dt>
+                    <dd></dd>
+                    <dt class="">400</dt>
+                    <dd></dd>
+                    <dt class="">600</dt>
+                    <dd></dd>
+                    <dt class="">800</dt>
+                    <dd></dd>
+                    <dt class="">1000</dt>
+                    <dd></dd>
+                </dl>
+                <dl>
+                    <dt class="">200</dt>
+                    <dd></dd>
+                    <dt class="">400</dt>
+                    <dd></dd>
+                    <dt class="">600</dt>
+                    <dd></dd>
+                    <dt class="">800</dt>
+                    <dd></dd>
+                    <dt class="">1000</dt>
+                    <dd></dd>
+                </dl>
+                <dl>
+                    <dt class="">200</dt>
+                    <dd></dd>
+                    <dt class="">400</dt>
+                    <dd></dd>
+                    <dt class="">600</dt>
+                    <dd></dd>
+                    <dt class="">800</dt>
+                    <dd></dd>
+                    <dt class="">1000</dt>
+                    <dd></dd>
+                </dl>
+            </div>
+            <div id="double-jeopardy">
+                <h2>Double Jeopardy</h2>
+                <ol class="categories">
+                    <li>First Category</li>
+                    <li>Second Category</li>
+                    <li>Third Category</li>
+                    <li>Fourth Category</li>
+                    <li>Fifth Category</li>
+                </ol>
+                <dl>
+                    <dt class="">400</dt>
+                    <dd></dd>
+                    <dt class="">800</dt>
+                    <dd></dd>
+                    <dt class="">1200</dt>
+                    <dd></dd>
+                    <dt class="">1600</dt>
+                    <dd></dd>
+                    <dt class="">2000</dt>
+                    <dd></dd>
+                </dl>
+                <dl>
+                    <dt class="">400</dt>
+                    <dd></dd>
+                    <dt class="">800</dt>
+                    <dd></dd>
+                    <dt class="">1200</dt>
+                    <dd></dd>
+                    <dt class="">1600</dt>
+                    <dd></dd>
+                    <dt class="">2000</dt>
+                    <dd></dd>
+                </dl>
+                <dl>
+                    <dt class="">400</dt>
+                    <dd></dd>
+                    <dt class="">800</dt>
+                    <dd></dd>
+                    <dt class="">1200</dt>
+                    <dd></dd>
+                    <dt class="">1600</dt>
+                    <dd></dd>
+                    <dt class="">2000</dt>
+                    <dd></dd>
+                </dl>
+                <dl>
+                    <dt class="">400</dt>
+                    <dd></dd>
+                    <dt class="">800</dt>
+                    <dd></dd>
+                    <dt class="">1200</dt>
+                    <dd></dd>
+                    <dt class="">1600</dt>
+                    <dd></dd>
+                    <dt class="">2000</dt>
+                    <dd></dd>
+                </dl>
+                <dl>
+                    <dt class="">400</dt>
+                    <dd></dd>
+                    <dt class="">800</dt>
+                    <dd></dd>
+                    <dt class="">1200</dt>
+                    <dd></dd>
+                    <dt class="">1600</dt>
+                    <dd></dd>
+                    <dt class="">2000</dt>
+                    <dd></dd>
+                </dl>
+            </div>
+            <div id="answer-modal">
+                <div id="close-icon">X</div>
+                <p>Answer</p>
+            </div>
         </div>
-        <div id="double-jeopardy">
-            <h2>Double Jeopardy</h2>
-            <ol class="categories">
-                <li>First Category</li>
-                <li>Second Category</li>
-                <li>Third Category</li>
-                <li>Fourth Category</li>
-                <li>Fifth Category</li>
-            </ol>
-            <dl>
-                <dt class="closed unloaded">400</dt>
-                <dd></dd>
-                <dt class="closed unloaded">800</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1200</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1600</dt>
-                <dd></dd>
-                <dt class="closed unloaded">2000</dt>
-                <dd></dd>
-            </dl>
-            <dl>
-                <dt class="closed unloaded">400</dt>
-                <dd></dd>
-                <dt class="closed unloaded">800</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1200</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1600</dt>
-                <dd></dd>
-                <dt class="closed unloaded">2000</dt>
-                <dd></dd>
-            </dl>
-            <dl>
-                <dt class="closed unloaded">400</dt>
-                <dd></dd>
-                <dt class="closed unloaded">800</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1200</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1600</dt>
-                <dd></dd>
-                <dt class="closed unloaded">2000</dt>
-                <dd></dd>
-            </dl>
-            <dl>
-                <dt class="closed unloaded">400</dt>
-                <dd></dd>
-                <dt class="closed unloaded">800</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1200</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1600</dt>
-                <dd></dd>
-                <dt class="closed unloaded">2000</dt>
-                <dd></dd>
-            </dl>
-            <dl>
-                <dt class="closed unloaded">400</dt>
-                <dd></dd>
-                <dt class="closed unloaded">800</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1200</dt>
-                <dd></dd>
-                <dt class="closed unloaded">1600</dt>
-                <dd></dd>
-                <dt class="closed unloaded">2000</dt>
-                <dd></dd>
-            </dl>
-        </div>
+        <div id="obscurer"></div>
     </content>
     <footer>
         <p>&copy; 2025 Attempted Murder Studios</p>
     </footer>
 
     <script lang="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
+            // initializers
+            $answerModal = $('#answer-modal');
+            $obscurer = $('#obscurer');
             
+            // triggers
+            $('#load-game').on('click', loadGame());
+            $('dt').on('click', function () {
+                $(this).toggleClass('guessed');
+                $answerModal.find('p').text($(this).next('dd').text());
+                $answerModal.addClass('active');
+                $obscurer.addClass('active');
+                console.log('clicked ' + $(this).parent('dl').index() + '.' + $(this).index());
+            });
+            $('#close-icon, #obscurer').on('click',function() {
+                $answerModal.removeClass('active');
+                $obscurer.removeClass('active');
+            });
+
         });
+
+        function loadGame() {
+
+        }
     </script>
-    
+
 </body>
+
 </html>
