@@ -1,0 +1,28 @@
+{
+  "name": "jeopardish",
+  "version": "1.0.0",
+  "description": "A jeopardy-like clone to play with my family.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennthewolfe/jeopardish.git"
+  },
+  "keywords": [
+    "jeopardy",
+    "game",
+    "clone"
+  ],
+  "author": "Benjamin Wolfe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennthewolfe/jeopardish/issues"
+  },
+  "homepage": "https://github.com/bennthewolfe/jeopardish#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}

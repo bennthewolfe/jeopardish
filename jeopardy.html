@@ -197,8 +197,7 @@
         });
 
         function loadGame() {
-            $.getJSON('/single-jeopardy-cats/1.json', function(data) {
-                // Process the JSON data here
+            $.getJSON('http://localhost:3000/games/wings-of-fire', function(data) {
                 console.log(data);
             }).fail(function() {
                 console.log("An error has occurred.");
