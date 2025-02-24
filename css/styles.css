@@ -3,17 +3,21 @@ body {
     color: #fff;
 }
 
+sidebar {
+    display: block;
+    clear: both;
+}
+
 footer {
-    padding-top: 100%;
+    display: block;
+    clear: both;
 }
 
 #game-board {
     display: block;
-    width: 80%;
+    width: 90%;
     height: 80%;
-    position: absolute;
-    top: 20%;
-    left: 10%;
+    position: relative;
     margin: 0 auto;
     color: #fff;
     font-weight: bold;
@@ -88,39 +92,44 @@ footer {
     z-index: 12;
 }
 
-ol.categories {
+#game-board ol.categories {
     display: block;
+    position: relative;
+    clear: both;
     width: 100%;
     height: 20%;
+    min-height: 60px;
     margin: 0;
     padding: 0;
     list-style-type: none;
 }
 
-ol.categories li {
+#game-board ol.categories li {
     display: block;
     float: left;
-    width: 19%;
+    width: 15%;
     height: 100%;
+    min-height: 60px;
     border: solid #cacaca 1px;
     text-align: center;
     padding: 0;
     margin: 0;
+    overflow: hidden;
 }
 
-dl {
+#game-board ol {
     display: block;
     float: left;
-    width: 19%;
+    width: 15%;
     height: 80%;
     margin: 0;
     padding: 0;
     position: relative;
+    list-style: none;
 }
 
-dt,
-dd {
-    display: inline-block;
+#game-board li {
+    display: block;
     width: 100%;
     height: 19%;
     border: solid #cacaca 1px;
@@ -131,16 +140,20 @@ dd {
     color: #fff;
 }
 
-dt {
+#game-board li {
     line-height: 60px;
     background-color: blue;
 }
 
-dt.guessed {
+#game-board li.answered {
     color: transparent;
     background-color: #fff;
 }
 
-dd {
+#game-board li .answer {
+    display: none;
+}
+
+#game-board li .question {
     display: none;
 }

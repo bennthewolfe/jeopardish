@@ -2,12 +2,19 @@
 ## Summary
 This is a jeopardy clone powered by jquery for me to play with my family.
 
+Repo : https://github.com/bennthewolfe/jeopardish
+
+## One-time Set-up
+1. Install Node JS
+2. Run ```npm install```
+
 ## Instructions
-1. Luanch in a browser (currently requires internet connection)
+1. Run ```node server.js``` to start the Express API
+2. Luanch in a browser (currently requires internet connection)
 
 ## Ideas
 - Attach to a Jeopardy API?
 - Download dependencies for offline play
 
 ### Credits
-- &copy;2025 Attempted Murder Studios | www.attemptedmurderstudios.com
+- &copy;2025 Attempted Murder Studios | http://www.attemptedmurderstudios.com
