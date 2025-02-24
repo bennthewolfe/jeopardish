@@ -1,15 +1,15 @@
 {
     "title": "Wings of Fire",
     "200": {
-        "answer": "This dragon is the main protagonist of the series.",
+        "answer": "This dragon is the main protagonist of the first book.",
         "question": "Who is Clay?"
     },
     "400": {
-        "answer": "This dragon is the main antagonist of the series.",
+        "answer": "This dragon is the main villian of the first book.",
         "question": "Who is Queen Scarlet?"
     },
     "600": {
-        "answer": "This dragon is the author of the series.",
+        "answer": "This person is the author of the series.",
         "question": "Who is Tui T. Sutherland?"
     },
     "800": {
@@ -17,7 +17,7 @@
         "question": "Who is Moonwatcher?"
     },
     "1000": {
-        "answer": "This dragon is the main antagonist of the second arc / prophecy.",
+        "answer": "This dragon is the main villian of the second arc.",
         "question": "Who is Darkstalker?"
     }
 }

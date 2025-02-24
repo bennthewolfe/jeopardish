@@ -17,19 +17,15 @@
     <header>
         <h1>Jeopardish</h1>
     </header>
-    <sidebar>
-        <button id="reset">Reset</button>
-        <button id="load-game">Load Game</button>
-    </sidebar>
     <content>
         <div id="game-board">
             <div id="single-jeopardy" class="active">
                 <ol class="categories">
-                    <li>First Category</li>
-                    <li>Second Category</li>
-                    <li>Third Category</li>
-                    <li>Fourth Category</li>
-                    <li>Fifth Category</li>
+                    <li>Dragon Tribes</li>
+                    <li>The Dragonettes of Destiny</li>
+                    <li>Villains & Antagonists</li>
+                    <li>Royalty and Queens</li>
+                    <li>Prophecies & Myths</li>
                 </ol>
                 <dl>
                     <dt class="">200</dt>
@@ -169,6 +165,10 @@
         </div>
         <div id="obscurer"></div>
     </content>
+    <sidebar>
+        <button id="reset-game">Reset</button>
+        <button id="load-game">Load Game</button>
+    </sidebar>
     <footer>
         <p>&copy; 2025 Attempted Murder Studios</p>
     </footer>
@@ -180,7 +180,8 @@
             $obscurer = $('#obscurer');
             
             // triggers
-            $('#load-game').on('click', loadGame());
+            $('#load-game').on('click', function() { loadGame(); });
+            $('#reset-game').on('click', function() { resetGame(); });
             $('dt').on('click', function () {
                 $(this).toggleClass('guessed');
                 $answerModal.find('p').text($(this).next('dd').text());
@@ -196,7 +197,19 @@
         });
 
         function loadGame() {
+            $.getJSON('/single-jeopardy-cats/1.json', function(data) {
+                // Process the JSON data here
+                console.log(data);
+            }).fail(function() {
+                console.log("An error has occurred.");
+            });
+        }
 
+        function resetGame() {
+            console.log('resetting game');
+            $('#single-jeopardy').addClass('active');
+            $('#double-jeopardy').removeClass('active');
+            $('dt').removeClass('guessed');
         }
     </script>
 

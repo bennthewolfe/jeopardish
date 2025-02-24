@@ -1,0 +1,298 @@
+{
+    "metadata": {
+        "title": "Wings of Fire",
+        "description": "",
+        "author": "ChatGPT",
+        "date": "2025-02-23",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "Dragon Tribes",
+                "200": {
+                    "answer": "These desert-dwelling dragons have venomous tails.",
+                    "question": "Who are SandWings?"
+                },
+                "400": {
+                    "answer": "This IceWing ability allows them to kill with a single touch.",
+                    "question": "What is ice breath?"
+                },
+                "600": {
+                    "answer": "SkyWings are known for their impressive abilities in this aerial activity.",
+                    "question": "What is flying?"
+                },
+                "800": {
+                    "answer": "Seawings have this special ability that allow them to communicate underwater.",
+                    "question": "What are bioluminescent stripes?"
+                },
+                "1000": {
+                    "answer": "The LeafWings were nearly wiped out in this war.",
+                    "question": "What are the Tree Wars?"
+                }
+            },
+            {
+                "title": "The Dragonets of Destiny",
+                "200": {
+                    "answer": "This MudWing is the strongest of the Dragonets of Destiny.",
+                    "question": "Who is Clay?"
+                },
+                "400": {
+                    "answer": "This SandWing dragonet hatched under a full moon and has prophetic dreams.",
+                    "question": "Who is Sunny?"
+                },
+                "600": {
+                    "answer": "This dragonet is half-NightWing, half-SeaWing and has animus magic.",
+                    "question": "Who is Tsunami?"
+                },
+                "800": {
+                    "answer": "This dragonet of destiny was raised by scavengers for part of his childhood.",
+                    "question": "Who is Starflight?"
+                },
+                "1000": {
+                    "answer": "This dragonet originally believed she was a SkyWing but was actually a hybrid.",
+                    "question": "Who is Peril?"
+                }
+            },
+            {
+                "title": "Villains & Antagonists",
+                "200": {
+                    "answer": "This villainous NightWing could read minds and see the future.",
+                    "question": "Who is Morrowseer?"
+                },
+                "400": {
+                    "answer": "The first Queen of the HiveWings, she enslaved the SilkWings.",
+                    "question": "Who is Queen Wasp?"
+                },
+                "600": {
+                    "answer": "This IceWing prince turned traitor and worked with the NightWings.",
+                    "question": "Who is Prince Arctic?"
+                },
+                "800": {
+                    "answer": "This SandWing princess allied with the NightWings to try to claim the throne.",
+                    "question": "Who is Princess Blister?"
+                },
+                "1000": {
+                    "answer": "This cunning NightWing became the main villain of The Lost Continent.",
+                    "question": "Who is Darkstalker?"
+                }
+            },
+            {
+                "title": "Royalty & Queens",
+                "200": {
+                    "answer": "The mother of Burn, Blister, and Blaze, her death sparked the War of SandWing Succession.",
+                    "question": "Who is Queen Oasis?"
+                },
+                "400": {
+                    "answer": "This queen of the RainWings was lazy and let the tribe govern itself.",
+                    "question": "Who is Queen Magnificent?"
+                },
+                "600": {
+                    "answer": "This queen of the HiveWings was controlled by the othermind.",
+                    "question": "Who is Queen Wasp?"
+                },
+                "800": {
+                    "answer": "This NightWing queen was overthrown by Glory.",
+                    "question": "Who is Queen Battlewinner?"
+                },
+                "1000": {
+                    "answer": "The youngest queen in the series, she rules the SilkWings and HiveWings.",
+                    "question": "Who is Queen Jewel?"
+                }
+            },
+            {
+                "title": "Prophecies & Myths",
+                "200": {
+                    "answer": "The Dragonet Prophecy foretold the end of this war.",
+                    "question": "What is the War of SandWing Succession?"
+                },
+                "400": {
+                    "answer": "This tribe was thought to have disappeared but actually lived in a secret volcano.",
+                    "question": "What is the NightWing tribe?"
+                },
+                "600": {
+                    "answer": "The Lost Continent Prophecy predicted the invasion of these creatures.",
+                    "question": "What is the invasion of the othermind-controlled HiveWings and LeafWings?"
+                },
+                "800": {
+                    "answer": "The Talons of Peace believed the prophecy meant these specific dragons.",
+                    "question": "Who are the Dragonets of Destiny?"
+                },
+                "1000": {
+                    "answer": "The false prophecy was created by this villain.",
+                    "question": "Who is Morrowseer?"
+                }
+            },
+            {
+                "title": "Hidden Places & Secrets",
+                "200": {
+                    "answer": "The NightWing Island was destroyed by this natural disaster.",
+                    "question": "What is a volcanic eruption?"
+                },
+                "400": {
+                    "answer": "The RainWings keep their kingdom hidden within this dense location.",
+                    "question": "What is the Rainforest?"
+                },
+                "600": {
+                    "answer": "Darkstalker was buried under this mountain.",
+                    "question": "What is Jade Mountain?"
+                },
+                "800": {
+                    "answer": "The secret tunnel connecting Pyrrhia and Pantala was hidden under this landmark.",
+                    "question": "What is a hidden tunnel in the Claws of the Clouds Mountains?"
+                },
+                "1000": {
+                    "answer": "The IceWings and NightWings once shared this island before a betrayal divided them.",
+                    "question": "What is the old NightWing kingdom on the Talons of Power Island?"
+                }
+            }
+        ]
+    },
+    "double-jeopardy": {
+        "categories": [
+            {
+                "title": "Animus Magic",
+                "400": {
+                    "answer": "An animus dragon can do this, but it comes at the cost of their soul.",
+                    "question": "What is enchanting objects or creatures to do magical things?"
+                },
+                "800": {
+                    "answer": "The first animus dragon recorded in history.",
+                    "question": "Who is Albatross?"
+                },
+                "1200": {
+                    "answer": "An animus spell forced this IceWing to obey Darkstalker.",
+                    "question": "Who is Prince Arctic?"
+                },
+                "1600": {
+                    "answer": "This animus dragon gave up his power to save his soul.",
+                    "question": "Who is Turtle?"
+                },
+                "2000": {
+                    "answer": "The most powerful animus in history, he sought to rule all of Pyrrhia.",
+                    "question": "Who is Darkstalker?"
+                }
+            },
+            {
+                "title": "The Lost Continent",
+                "400": {
+                    "answer": "This HiveWing was a spy for the resistance.",
+                    "question": "Who is Cricket?"
+                },
+                "800": {
+                    "answer": "This HiveWing queen used mind control to rule her subjects.",
+                    "question": "Who is Queen Wasp?"
+                },
+                "1200": {
+                    "answer": "The SilkWings were enslaved after this event.",
+                    "question": "What is the Tree Wars?"
+                },
+                "1600": {
+                    "answer": "This is the name secret resistance movement against Queen Scarlett.",
+                    "question": "What is The Chrysalis?"
+                },
+                "2000": {
+                    "answer": "This SilkWing's flamesilk helped destroy the othermind.",
+                    "question": "Who is Luna?"
+                }
+            },
+            {
+                "title": "Allied & Friendships",
+                "400": {
+                    "answer": "This IceWing princess became friends with a SilkWing named Blue.",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "This Silkwing joined Cricket, Blue, and Luna in their quest for freedom.",
+                    "question": "Who is Swordtail?"
+                },
+                "1200": {
+                    "answer": "This Rainwing dragonet was kidnapped.",
+                    "question": "Who is Kinkajou?"
+                },
+                "1500": {
+                    "answer": "These two dragons became a bonded pair despite being from different tribes.",
+                    "question": "Who are Blue and Cricket?"
+                },
+                "2000": {
+                    "answer": "This unlikely duo formed a close friendship, despite being on opposite sides of a war.",
+                    "question": "Who are Tsunami and Riptide?"
+                }
+            },{
+                "title": "Darkstalker & Legends",
+                "400": {
+                    "answer": "This NightWing prince was Darkstalker’s best friend but later betrayed him.",
+                    "question": "Who is Fathom?"
+                },
+                "800": {
+                    "answer": "This NightWing was in love with Darkstalker but later stopped him.",
+                    "question": "Who is Clearsight?"
+                },
+                "1200": {
+                    "answer": "Darkstalker was betrayed when he was fed this enchanted item.",
+                    "question": "What is an enchanted armband?"
+                },
+                "1500": {
+                    "answer": "Darkstalker’s mother was part of this tribe.",
+                    "question": "What are Nightwings?"
+                },
+                "2000": {
+                    "answer": "Darkstalker’s father belonged to this tribe.",
+                    "question": "What are Icewings?"
+                }
+            },{
+                "title": "Scavengers & Humans",
+                "400": {
+                    "answer": "Humans are called this by dragons.",
+                    "question": "What are scavengers?"
+                },
+                "800": {
+                    "answer": "This small human girl befriended Smolder.",
+                    "question": "Who is Rose?"
+                },
+                "1200": {
+                    "answer": "This legendary human city was destroyed by dragons.",
+                    "question": "What is Atlantis?"
+                },
+                "1500": {
+                    "answer": "Humans are responsible for bringing these creatures to Pantala.",
+                    "question": "What are beetles?"
+                },
+                "2000": {
+                    "answer": "The Scorching was a war between these two groups.",
+                    "question": "What are Dragons & Humans?"
+                }
+            },{
+                "title": "Battles & Wars",
+                "400": {
+                    "answer": "The War of SandWing Succession lasted this many years.",
+                    "question": "What is 20 years?"
+                },
+                "800": {
+                    "answer": "The biggest battle of the war took place at this landmark.",
+                    "question": "What is Burn's Stronghold?"
+                },
+                "1200": {
+                    "answer": "The LeafWings fought a brutal war against this tribe.",
+                    "question": "What are Hivewings"
+                },
+                "1500": {
+                    "answer": "The IceWing and NightWing war ended because of this betrayal.",
+                    "question": "What is animus magic?"
+                },
+                "2000": {
+                    "answer": "This war was started by Queen Wasp’s desire to expand her rule.",
+                    "question": "The Tree Wars?"
+                }
+            }
+            
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "Ancient History",
+            "answer": "Thousands of years before the events of Wings of Fire, dragons and humans coexisted until this event led dragons to view humans as enemies.",
+            "question": "What is The Scorching?"
+        }
+    }
+}

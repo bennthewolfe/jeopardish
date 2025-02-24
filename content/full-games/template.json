@@ -1,0 +1,300 @@
+{
+    "metadata": {
+        "title": "",
+        "description": "",
+        "author": "",
+        "date": "2025-01-01",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "Cateogry 1",
+                "200": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "400": {
+                    "answer": "",
+                    "question": ""
+                },
+                "600": {
+                    "answer": "",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1000": {
+                    "answer": "",
+                    "question": ""
+                }
+            },
+            {
+                "title": "Category 2",
+                "200": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "400": {
+                    "answer": "",
+                    "question": ""
+                },
+                "600": {
+                    "answer": "",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1000": {
+                    "answer": "",
+                    "question": ""
+                }
+            },
+            {
+                "title": "Category 3",
+                "200": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "400": {
+                    "answer": "",
+                    "question": ""
+                },
+                "600": {
+                    "answer": "",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1000": {
+                    "answer": "",
+                    "question": ""
+                }
+            },
+            {
+                "title": "Category 4",
+                "200": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "400": {
+                    "answer": "",
+                    "question": ""
+                },
+                "600": {
+                    "answer": "",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1000": {
+                    "answer": "",
+                    "question": ""
+                }
+            },
+            {
+                "title": "Category 5",
+                "200": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "400": {
+                    "answer": "",
+                    "question": ""
+                },
+                "600": {
+                    "answer": "",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1000": {
+                    "answer": "",
+                    "question": ""
+                }
+            },
+            {
+                "title": "Category 6",
+                "200": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "400": {
+                    "answer": "",
+                    "question": ""
+                },
+                "600": {
+                    "answer": "",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1000": {
+                    "answer": "",
+                    "question": ""
+                }
+            }
+        ]
+    },
+    "doiuble-jeopardy": {
+        "categories": [
+            {
+                "title": "Cateogry 1",
+                "400": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1200": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1500": {
+                    "answer": "",
+                    "question": ""
+                },
+                "2000": {
+                    "answer": "",
+                    "question": ""
+                }
+            },
+            {
+                "title": "Category 2",
+                "400": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1200": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1500": {
+                    "answer": "",
+                    "question": ""
+                },
+                "2000": {
+                    "answer": "",
+                    "question": ""
+                }
+            },
+            {
+                "title": "Category 3",
+                "400": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1200": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1500": {
+                    "answer": "",
+                    "question": ""
+                },
+                "2000": {
+                    "answer": "",
+                    "question": ""
+                }
+            },
+            {
+                "title": "Category 4",
+                "400": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1200": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1500": {
+                    "answer": "",
+                    "question": ""
+                },
+                "2000": {
+                    "answer": "",
+                    "question": ""
+                }
+            },
+            {
+                "title": "Category 5",
+                "400": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1200": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1500": {
+                    "answer": "",
+                    "question": ""
+                },
+                "2000": {
+                    "answer": "",
+                    "question": ""
+                }
+            },
+            {
+                "title": "Category 6",
+                "400": {
+                    "answer": ".",
+                    "question": ""
+                },
+                "800": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1200": {
+                    "answer": "",
+                    "question": ""
+                },
+                "1500": {
+                    "answer": "",
+                    "question": ""
+                },
+                "2000": {
+                    "answer": "",
+                    "question": ""
+                }
+            }
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "Category",
+            "answer": ".",
+            "question": ""
+        }
+    }
+}
