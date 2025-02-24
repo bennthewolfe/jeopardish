@@ -431,8 +431,30 @@
         function loadGame() {
             $.getJSON('http://localhost:3000/games/wings-of-fire', function(data) {
                 console.log(data);
+
+                buildGameBoard(data);
             }).fail(function() {
                 console.log("An error has occurred.");
+            });
+        }
+
+        function buildGameBoard(json) {
+            console.log('Building game board...');
+
+            // Single Jeopardy
+            $.each(json['single-jeopardy'].categories, function(index, value) {
+                $.each(Object.entries(this), function(){
+                    switch(this[0]) {
+                        case 'title':
+                            console.log(this);
+                            $('ol.categories li').eq(index).text(value.title);
+                            break;
+                        case '200':
+                            console.log(this);
+                            break;
+                    }
+                    console.log(this);
+                });
             });
         }
 
