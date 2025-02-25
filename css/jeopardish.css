@@ -73,23 +73,38 @@ footer {
 }
 
 #answer-modal p {
-    padding: 10%;
     position: absolute;
+    padding: 5% 2%;
     top: 0;
     left: 0;
     margin: 0;
     z-index: 11;
+    width: 100%;
+    text-align: center;
 }
 
-#close-icon {
+#answer-modal div {
     position: absolute;
-    top: 0;
-    right: 0;
     width: 15%;
     height: 20%;
     font-size: 0.5em;
     cursor: pointer;
     z-index: 12;
+}
+
+#answer-modal #close-icon {
+    top: 0;
+    right: 0;
+}
+
+#answer-modal #cur-tile-value {
+    top: 0;
+    left: 0;
+}
+
+#answer-modal #cur-tile-question {
+    bottom: 0;
+    right: 0;
 }
 
 #game-board ol.categories {

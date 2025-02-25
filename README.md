@@ -15,6 +15,7 @@ Repo : https://github.com/bennthewolfe/jeopardish
 ## Ideas
 - Attach to a Jeopardy API?
 - Download dependencies for offline play
+- Use the JQuery data to store all this data on the cells instead of text in divs
 
 ### Credits
 - &copy;2025 Attempted Murder Studios | http://www.attemptedmurderstudios.com
