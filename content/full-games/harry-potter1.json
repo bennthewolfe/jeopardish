@@ -1,0 +1,300 @@
+{
+    "metadata": {
+        "title": "Harry Potter Jeopardy",
+        "description": "A Jeopardy game based on the Harry Potter universe.",
+        "author": "Author Name",
+        "date": "2025-01-01",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "Hogwarts Professors",
+                "200": {
+                    "answer": "This professor teaches Transfiguration at Hogwarts.",
+                    "question": "Who is Professor McGonagall?"
+                },
+                "400": {
+                    "answer": "This professor is the head of Slytherin House and teaches Potions.",
+                    "question": "Who is Professor Snape?"
+                },
+                "600": {
+                    "answer": "This professor teaches Defense Against the Dark Arts in Harry's third year.",
+                    "question": "Who is Professor Lupin?"
+                },
+                "800": {
+                    "answer": "This professor is known for her large glasses and teaches Divination.",
+                    "question": "Who is Professor Trelawney?"
+                },
+                "1000": {
+                    "answer": "This professor teaches Herbology and is the head of Hufflepuff House.",
+                    "question": "Who is Professor Sprout?"
+                }
+            },
+            {
+                "title": "Magical Creatures",
+                "200": {
+                    "answer": "This creature is known for its ability to transform into a person's worst fear.",
+                    "question": "What is a Boggart?"
+                },
+                "400": {
+                    "answer": "This giant spider lives in the Forbidden Forest and is a friend of Hagrid.",
+                    "question": "Who is Aragog?"
+                },
+                "600": {
+                    "answer": "This creature is a loyal companion to house-elves and wizards, known for its loyalty and healing tears.",
+                    "question": "What is a Phoenix?"
+                },
+                "800": {
+                    "answer": "This creature is a large, winged horse that can only be seen by those who have witnessed death.",
+                    "question": "What is a Thestral?"
+                },
+                "1000": {
+                    "answer": "This creature is a three-headed dog that guards the entrance to the Sorcerer's Stone.",
+                    "question": "Who is Fluffy?"
+                }
+            },
+            {
+                "title": "Spells and Charms",
+                "200": {
+                    "answer": "This spell is used to disarm an opponent.",
+                    "question": "What is Expelliarmus?"
+                },
+                "400": {
+                    "answer": "This spell is used to summon objects.",
+                    "question": "What is Accio?"
+                },
+                "600": {
+                    "answer": "This spell is used to unlock doors.",
+                    "question": "What is Alohomora?"
+                },
+                "800": {
+                    "answer": "This spell is used to produce light from the caster's wand.",
+                    "question": "What is Lumos?"
+                },
+                "1000": {
+                    "answer": "This spell is used to repel Dementors.",
+                    "question": "What is Expecto Patronum?"
+                }
+            },
+            {
+                "title": "Hogwarts Legacy Characters",
+                "200": {
+                    "answer": "This character is the protagonist of Hogwarts Legacy.",
+                    "question": "Who is the Player?"
+                },
+                "400": {
+                    "answer": "This character is a professor of Herbology in Hogwarts Legacy.",
+                    "question": "Who is Professor Garlick?"
+                },
+                "600": {
+                    "answer": "This character is a professor of Potions in Hogwarts Legacy.",
+                    "question": "Who is Professor Sharp?"
+                },
+                "800": {
+                    "answer": "This character is a professor of Defense Against the Dark Arts in Hogwarts Legacy.",
+                    "question": "Who is Professor Hecat?"
+                },
+                "1000": {
+                    "answer": "This character is a professor of Charms in Hogwarts Legacy.",
+                    "question": "Who is Professor Ronen?"
+                }
+            },
+            {
+                "title": "Hogwarts Legacy Events",
+                "200": {
+                    "answer": "This event marks the beginning of the protagonist's journey in Hogwarts Legacy.",
+                    "question": "What is the Sorting Ceremony?"
+                },
+                "400": {
+                    "answer": "This event involves the protagonist discovering a hidden chamber beneath Hogwarts.",
+                    "question": "What is the Ancient Magic Chamber?"
+                },
+                "600": {
+                    "answer": "This event involves the protagonist battling dark wizards in the Forbidden Forest.",
+                    "question": "What is the Dark Wizard Ambush?"
+                },
+                "800": {
+                    "answer": "This event involves the protagonist attending a magical creature care class.",
+                    "question": "What is the Beast Class?"
+                },
+                "1000": {
+                    "answer": "This event involves the protagonist uncovering a conspiracy involving ancient magic.",
+                    "question": "What is the Ancient Magic Conspiracy?"
+                }
+            },
+            {
+                "title": "Potions",
+                "200": {
+                    "answer": "This potion grants the drinker luck for a period of time.",
+                    "question": "What is Felix Felicis?"
+                },
+                "400": {
+                    "answer": "This potion allows the drinker to take the form of someone else.",
+                    "question": "What is Polyjuice Potion?"
+                },
+                "600": {
+                    "answer": "This potion is used to heal minor injuries.",
+                    "question": "What is Essence of Dittany?"
+                },
+                "800": {
+                    "answer": "This potion is used to make the drinker temporarily immune to fire.",
+                    "question": "What is Fire Protection Potion?"
+                },
+                "1000": {
+                    "answer": "This potion is used to induce a deep, dreamless sleep.",
+                    "question": "What is Draught of Living Death?"
+                }
+            }
+        ]
+    },
+    "double-jeopardy": {
+        "categories": [
+            {
+                "title": "Dark Arts",
+                "400": {
+                    "answer": "This spell is known as the Killing Curse.",
+                    "question": "What is Avada Kedavra?"
+                },
+                "800": {
+                    "answer": "This spell is used to control another person's actions.",
+                    "question": "What is Imperio?"
+                },
+                "1200": {
+                    "answer": "This spell is used to inflict intense pain on the victim.",
+                    "question": "What is Crucio?"
+                },
+                "1600": {
+                    "answer": "This dark artifact is used to store a part of a wizard's soul.",
+                    "question": "What is a Horcrux?"
+                },
+                "2000": {
+                    "answer": "This dark wizard is known as the Dark Lord.",
+                    "question": "Who is Voldemort?"
+                }
+            },
+            {
+                "title": "Quidditch",
+                "400": {
+                    "answer": "This position is responsible for scoring goals.",
+                    "question": "What is a Chaser?"
+                },
+                "800": {
+                    "answer": "This position is responsible for catching the Golden Snitch.",
+                    "question": "What is a Seeker?"
+                },
+                "1200": {
+                    "answer": "This position is responsible for protecting the goalposts.",
+                    "question": "What is a Keeper?"
+                },
+                "1600": {
+                    "answer": "This position is responsible for hitting Bludgers towards the opposing team.",
+                    "question": "What is a Beater?"
+                },
+                "2000": {
+                    "answer": "This is the name of the ball used to score goals.",
+                    "question": "What is the Quaffle?"
+                }
+            },
+            {
+                "title": "Wizarding Families",
+                "400": {
+                    "answer": "This family is known for their red hair and large number of children.",
+                    "question": "Who are the Weasleys?"
+                },
+                "800": {
+                    "answer": "This family is known for their wealth and pure-blood status.",
+                    "question": "Who are the Malfoys?"
+                },
+                "1200": {
+                    "answer": "This family is known for their connection to the Black family and their loyalty to Voldemort.",
+                    "question": "Who are the Lestranges?"
+                },
+                "1600": {
+                    "answer": "This family is known for their connection to the Deathly Hallows.",
+                    "question": "Who are the Peverells?"
+                },
+                "2000": {
+                    "answer": "This family is known for their connection to the Order of the Phoenix and their tragic fate.",
+                    "question": "Who are the Potters?"
+                }
+            },
+            {
+                "title": "Hogwarts Ghosts",
+                "400": {
+                    "answer": "This ghost is the resident ghost of Gryffindor House.",
+                    "question": "Who is Nearly Headless Nick?"
+                },
+                "800": {
+                    "answer": "This ghost is the resident ghost of Slytherin House.",
+                    "question": "Who is the Bloody Baron?"
+                },
+                "1200": {
+                    "answer": "This ghost is the resident ghost of Ravenclaw House.",
+                    "question": "Who is the Grey Lady?"
+                },
+                "1600": {
+                    "answer": "This ghost is the resident ghost of Hufflepuff House.",
+                    "question": "Who is the Fat Friar?"
+                },
+                "2000": {
+                    "answer": "This ghost is known for haunting the girls' bathroom on the second floor.",
+                    "question": "Who is Moaning Myrtle?"
+                }
+            },
+            {
+                "title": "Hogwarts Legacy Locations",
+                "400": {
+                    "answer": "This location is where students learn about magical creatures in Hogwarts Legacy.",
+                    "question": "What is the Beast Classroom?"
+                },
+                "800": {
+                    "answer": "This location is a hidden chamber beneath Hogwarts in Hogwarts Legacy.",
+                    "question": "What is the Ancient Magic Chamber?"
+                },
+                "1200": {
+                    "answer": "This location is where students practice dueling in Hogwarts Legacy.",
+                    "question": "What is the Dueling Club?"
+                },
+                "1600": {
+                    "answer": "This location is a secret room that appears when needed in Hogwarts Legacy.",
+                    "question": "What is the Room of Requirement?"
+                },
+                "2000": {
+                    "answer": "This location is where students brew potions in Hogwarts Legacy.",
+                    "question": "What is the Potions Classroom?"
+                }
+            },
+            {
+                "title": "Wizarding World Artifacts",
+                "400": {
+                    "answer": "This artifact is used to make the drinker invisible.",
+                    "question": "What is the Invisibility Cloak?"
+                },
+                "800": {
+                    "answer": "This artifact is used to store memories.",
+                    "question": "What is the Pensieve?"
+                },
+                "1200": {
+                    "answer": "This artifact is used to reveal the Marauders' Map.",
+                    "question": "What is the Marauder's Map?"
+                },
+                "1600": {
+                    "answer": "This artifact is used to destroy Horcruxes.",
+                    "question": "What is the Sword of Gryffindor?"
+                },
+                "2000": {
+                    "answer": "This artifact is used to bring back the dead.",
+                    "question": "What is the Resurrection Stone?"
+                }
+            }
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "Hogwarts Founders",
+            "answer": "This founder of Hogwarts is known for their bravery and courage.",
+            "question": "Who is Godric Gryffindor?"
+        }
+    }
+}

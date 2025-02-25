@@ -1,0 +1,300 @@
+{
+    "metadata": {
+        "title": "Wings of Fire 2",
+        "description": "A Jeopardy game based on the Wings of Fire series.",
+        "author": "ChatGPT",
+        "date": "2025-02-25",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "Side Characters",
+                "200": {
+                    "answer": "This RainWing becomes queen after the events of 'The Hidden Kingdom'.",
+                    "question": "Who is Glory?"
+                },
+                "400": {
+                    "answer": "This MudWing is known for his exceptional strength and loyalty to Clay.",
+                    "question": "Who is Tsunami?"
+                },
+                "600": {
+                    "answer": "This IceWing prince helps the Dragonets of Destiny.",
+                    "question": "Who is Winter?"
+                },
+                "800": {
+                    "answer": "This SandWing is known for her healing abilities and is a close friend of Sunny.",
+                    "question": "Who is Thorn?"
+                },
+                "1000": {
+                    "answer": "This NightWing betrays his tribe to help the Dragonets of Destiny.",
+                    "question": "Who is Starflight?"
+                }
+            },
+            {
+                "title": "Prophecies and Myths",
+                "200": {
+                    "answer": "This is the name of the prophecy that predicts the coming of the Dragonets of Destiny.",
+                    "question": "What is The Dragonet Prophecy?"
+                },
+                "400": {
+                    "answer": "This dragon tribe is known for their ability to see the future.",
+                    "question": "Who are the NightWings?"
+                },
+                "600": {
+                    "answer": "This ancient NightWing wrote many of the prophecies.",
+                    "question": "Who is Darkstalker?"
+                },
+                "800": {
+                    "answer": "This prophecy foretells the end of the war between the dragon tribes.",
+                    "question": "What is The Jade Mountain Prophecy?"
+                },
+                "1000": {
+                    "answer": "This is the name of the myth about the dragon who can control all other dragons.",
+                    "question": "What is The Dragonet of Destiny?"
+                }
+            },
+            {
+                "title": "Relationships",
+                "200": {
+                    "answer": "This dragon is Tsunami's mother.",
+                    "question": "Who is Queen Coral?"
+                },
+                "400": {
+                    "answer": "This dragon is Starflight's best friend.",
+                    "question": "Who is Sunny?"
+                },
+                "600": {
+                    "answer": "This dragon is Glory's love interest.",
+                    "question": "Who is Deathbringer?"
+                },
+                "800": {
+                    "answer": "This dragon is Clay's brother.",
+                    "question": "Who is Reed?"
+                },
+                "1000": {
+                    "answer": "This dragon is Moonwatcher's mother.",
+                    "question": "Who is Secretkeeper?"
+                }
+            },
+            {
+                "title": "Tribe Leaders",
+                "200": {
+                    "answer": "This dragon is the current queen of the SeaWings.",
+                    "question": "Who is Queen Coral?"
+                },
+                "400": {
+                    "answer": "This dragon becomes the queen of the RainWings after the events of 'The Hidden Kingdom'.",
+                    "question": "Who is Glory?"
+                },
+                "600": {
+                    "answer": "This dragon is the leader of the NightWings during the events of 'The Dark Secret'.",
+                    "question": "Who is Queen Battlewinner?"
+                },
+                "800": {
+                    "answer": "This dragon is the queen of the SandWings at the beginning of the series.",
+                    "question": "Who is Queen Oasis?"
+                },
+                "1000": {
+                    "answer": "This dragon is the queen of the IceWings during the events of 'The Dangerous Gift'.",
+                    "question": "Who is Queen Snowfall?"
+                }
+            },
+            {
+                "title": "Dragon Abilities",
+                "200": {
+                    "answer": "This tribe has the ability to breathe fire and blend into their surroundings.",
+                    "question": "Who are the RainWings?"
+                },
+                "400": {
+                    "answer": "This tribe can breathe underwater and has bioluminescent scales.",
+                    "question": "Who are the SeaWings?"
+                },
+                "600": {
+                    "answer": "This tribe has the ability to withstand extreme cold and breathe frostbreath.",
+                    "question": "Who are the IceWings?"
+                },
+                "800": {
+                    "answer": "This tribe has the ability to see the future and read minds.",
+                    "question": "Who are the NightWings?"
+                },
+                "1000": {
+                    "answer": "This tribe has the ability to produce venom from their tails.",
+                    "question": "Who are the SandWings?"
+                }
+            },
+            {
+                "title": "Historical Events",
+                "200": {
+                    "answer": "This event led to the war between the dragon tribes.",
+                    "question": "What is the death of Queen Oasis?"
+                },
+                "400": {
+                    "answer": "This battle marked the end of the war between the dragon tribes.",
+                    "question": "What is The Battle of Jade Mountain?"
+                },
+                "600": {
+                    "answer": "This is the name of the event where the Dragonets of Destiny were revealed to the world.",
+                    "question": "What is The Great Hatching?"
+                },
+                "800": {
+                    "answer": "This event led to the formation of the Jade Mountain Academy.",
+                    "question": "What is the end of the war?"
+                },
+                "1000": {
+                    "answer": "This is the name of the event where Darkstalker was defeated.",
+                    "question": "What is The Darkstalker Rebellion?"
+                }
+            }
+        ]
+    },
+    "double-jeopardy": {
+        "categories": [
+            {
+                "title": "Side Characters",
+                "400": {
+                    "answer": "This RainWing becomes queen after the events of 'The Hidden Kingdom'.",
+                    "question": "Who is Glory?"
+                },
+                "800": {
+                    "answer": "This MudWing is known for his exceptional strength and loyalty to Clay.",
+                    "question": "Who is Tsunami?"
+                },
+                "1200": {
+                    "answer": "This IceWing prince helps the Dragonets of Destiny.",
+                    "question": "Who is Winter?"
+                },
+                "1600": {
+                    "answer": "This SandWing is known for her healing abilities and is a close friend of Sunny.",
+                    "question": "Who is Thorn?"
+                },
+                "2000": {
+                    "answer": "This NightWing betrays his tribe to help the Dragonets of Destiny.",
+                    "question": "Who is Starflight?"
+                }
+            },
+            {
+                "title": "Prophecies and Myths",
+                "400": {
+                    "answer": "This is the name of the prophecy that predicts the coming of the Dragonets of Destiny.",
+                    "question": "What is The Dragonet Prophecy?"
+                },
+                "800": {
+                    "answer": "This dragon tribe is known for their ability to see the future.",
+                    "question": "Who are the NightWings?"
+                },
+                "1200": {
+                    "answer": "This ancient NightWing wrote many of the prophecies.",
+                    "question": "Who is Darkstalker?"
+                },
+                "1600": {
+                    "answer": "This prophecy foretells the end of the war between the dragon tribes.",
+                    "question": "What is The Jade Mountain Prophecy?"
+                },
+                "2000": {
+                    "answer": "This is the name of the myth about the dragon who can control all other dragons.",
+                    "question": "What is The Dragonet of Destiny?"
+                }
+            },
+            {
+                "title": "Relationships",
+                "400": {
+                    "answer": "This dragon is Tsunami's mother.",
+                    "question": "Who is Queen Coral?"
+                },
+                "800": {
+                    "answer": "This dragon is Starflight's best friend.",
+                    "question": "Who is Sunny?"
+                },
+                "1200": {
+                    "answer": "This dragon is Glory's love interest.",
+                    "question": "Who is Deathbringer?"
+                },
+                "1600": {
+                    "answer": "This dragon is Clay's brother.",
+                    "question": "Who is Reed?"
+                },
+                "2000": {
+                    "answer": "This dragon is Moonwatcher's mother.",
+                    "question": "Who is Secretkeeper?"
+                }
+            },
+            {
+                "title": "Tribe Leaders",
+                "400": {
+                    "answer": "This dragon is the current queen of the SeaWings.",
+                    "question": "Who is Queen Coral?"
+                },
+                "800": {
+                    "answer": "This dragon becomes the queen of the RainWings after the events of 'The Hidden Kingdom'.",
+                    "question": "Who is Glory?"
+                },
+                "1200": {
+                    "answer": "This dragon is the leader of the NightWings during the events of 'The Dark Secret'.",
+                    "question": "Who is Queen Battlewinner?"
+                },
+                "1600": {
+                    "answer": "This dragon is the queen of the SandWings at the beginning of the series.",
+                    "question": "Who is Queen Oasis?"
+                },
+                "2000": {
+                    "answer": "This dragon is the queen of the IceWings during the events of 'The Dangerous Gift'.",
+                    "question": "Who is Queen Snowfall?"
+                }
+            },
+            {
+                "title": "Dragon Abilities",
+                "400": {
+                    "answer": "This tribe has the ability to breathe fire and blend into their surroundings.",
+                    "question": "Who are the RainWings?"
+                },
+                "800": {
+                    "answer": "This tribe can breathe underwater and has bioluminescent scales.",
+                    "question": "Who are the SeaWings?"
+                },
+                "1200": {
+                    "answer": "This tribe has the ability to withstand extreme cold and breathe frostbreath.",
+                    "question": "Who are the IceWings?"
+                },
+                "1600": {
+                    "answer": "This tribe has the ability to see the future and read minds.",
+                    "question": "Who are the NightWings?"
+                },
+                "2000": {
+                    "answer": "This tribe has the ability to produce venom from their tails.",
+                    "question": "Who are the SandWings?"
+                }
+            },
+            {
+                "title": "Historical Events",
+                "400": {
+                    "answer": "This event led to the war between the dragon tribes.",
+                    "question": "What is the death of Queen Oasis?"
+                },
+                "800": {
+                    "answer": "This battle marked the end of the war between the dragon tribes.",
+                    "question": "What is The Battle of Jade Mountain?"
+                },
+                "1200": {
+                    "answer": "This is the name of the event where the Dragonets of Destiny were revealed to the world.",
+                    "question": "What is The Great Hatching?"
+                },
+                "1600": {
+                    "answer": "This event led to the formation of the Jade Mountain Academy.",
+                    "question": "What is the end of the war?"
+                },
+                "2000": {
+                    "answer": "This is the name of the event where Darkstalker was defeated.",
+                    "question": "What is The Darkstalker Rebellion?"
+                }
+            }
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "Ancient Dragons",
+            "answer": "This ancient NightWing dragon is known for his immense power and tragic downfall.",
+            "question": "Who is Darkstalker?"
+        }
+    }
+}

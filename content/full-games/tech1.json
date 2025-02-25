@@ -1,0 +1,120 @@
+{
+    "metadata": {
+        "title": "Jeopardy Game: General Technology Edition",
+        "description": "A complete Jeopardy game featuring questions about technology, companies, founders, innovations, and more.",
+        "author": "",
+        "date": "2025-01-01",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "Tech Founders",
+                "200": { "answer": "This co-founder of Apple was known for his black turtleneck and product unveilings.", "question": "Who is Steve Jobs?" },
+                "400": { "answer": "This man co-founded Microsoft with Paul Allen.", "question": "Who is Bill Gates?" },
+                "600": { "answer": "Jeff Bezos founded this online marketplace in 1994.", "question": "What is Amazon?" },
+                "800": { "answer": "This social media giant was founded in a Harvard dorm room in 2004.", "question": "What is Facebook?" },
+                "1000": { "answer": "Larry Page and Sergey Brin created this search engine.", "question": "What is Google?" }
+            },
+            {
+                "title": "Operating Systems",
+                "200": { "answer": "This is the default operating system for Mac computers.", "question": "What is macOS?" },
+                "400": { "answer": "Windows XP succeeded this version of Windows.", "question": "What is Windows 2000?" },
+                "600": { "answer": "This open-source operating system is commonly used on servers.", "question": "What is Linux?" },
+                "800": { "answer": "The first version of Windows was released in this year.", "question": "What is 1985?" },
+                "1000": { "answer": "This mobile OS was originally developed by Andy Rubin and later acquired by Google.", "question": "What is Android?" }
+            },
+            {
+                "title": "Hardware Innovations",
+                "200": { "answer": "This company created the first commercially successful graphical user interface.", "question": "What is Apple?" },
+                "400": { "answer": "Moore's Law predicts this aspect of computing will double approximately every two years.", "question": "What is the number of transistors on a microchip?" },
+                "600": { "answer": "This was the first widely used microprocessor, released by Intel in 1971.", "question": "What is the Intel 4004?" },
+                "800": { "answer": "IBM introduced this type of storage device in 1956.", "question": "What is the hard disk drive?" },
+                "1000": { "answer": "This gaming console was the first to feature a built-in hard drive.", "question": "What is the Xbox?" }
+            },
+            {
+                "title": "Software & Programming",
+                "200": { "answer": "This popular programming language is named after a British comedy group.", "question": "What is Python?" },
+                "400": { "answer": "This programming language is commonly used to build interactive web applications.", "question": "What is JavaScript?" },
+                "600": { "answer": "This programming language extends the capabilities of C with object-oriented features.", "question": "What is C++?" },
+                "800": { "answer": "This platform is widely used for source code management and version control.", "question": "What is GitHub?" },
+                "1000": { "answer": "This language is used for managing and querying databases.", "question": "What is SQL?" }
+            },
+            {
+                "title": "Tech Rivalries",
+                "200": { "answer": "These two tech giants have competed for dominance in personal computing since the 1980s.", "question": "Who are Apple and Microsoft?" },
+                "400": { "answer": "These companies were once major competitors in the search engine market.", "question": "Who are Google and Yahoo?" },
+                "600": { "answer": "These companies compete in the console gaming market with PlayStation and Xbox.", "question": "Who are Sony and Microsoft?" },
+                "800": { "answer": "These automakers are leading the transition to electric vehicles.", "question": "Who are Tesla and Ford?" },
+                "1000": { "answer": "These companies have long battled for supremacy in the computer processor industry.", "question": "Who are Intel and AMD?" }
+            },
+            {
+                "title": "Internet & Social Media",
+                "200": { "answer": "This social media platform is known for its character limit on posts.", "question": "What is Twitter?" },
+                "400": { "answer": "This company acquired Instagram and WhatsApp.", "question": "What is Facebook?" },
+                "600": { "answer": "This video-sharing app became a global sensation with short-form content.", "question": "What is TikTok?" },
+                "800": { "answer": "This platform is often called the 'front page of the internet.'", "question": "What is Reddit?" },
+                "1000": { "answer": "This company owns YouTube, the largest video-sharing platform.", "question": "What is Google?" }
+            }
+        ]
+    },
+    "double-jeopardy": {
+        "categories": [
+            {
+                "title": "Tech Companies",
+                "400": { "answer": "This company started in a garage and became one of the largest tech firms in the world.", "question": "What is HP?" },
+                "800": { "answer": "This company is known for its e-commerce dominance and cloud computing services.", "question": "What is Amazon?" },
+                "1200": { "answer": "This company acquired LinkedIn for over $26 billion in 2016.", "question": "What is Microsoft?" },
+                "1600": { "answer": "The founder of Tesla also owns this space exploration company.", "question": "What is SpaceX?" },
+                "2000": { "answer": "This Chinese tech giant is known for its dominance in mobile devices and telecom equipment.", "question": "What is Huawei?" }
+            },
+            {
+                "title": "Programming Legends",
+                "400": { "answer": "This man created the C programming language.", "question": "Who is Dennis Ritchie?" },
+                "800": { "answer": "This British scientist is considered the father of modern computing.", "question": "Who is Alan Turing?" },
+                "1200": { "answer": "This person developed the Python programming language.", "question": "Who is Guido van Rossum?" },
+                "1600": { "answer": "The first computer programmer, she wrote the first algorithm intended for a machine.", "question": "Who is Ada Lovelace?" },
+                "2000": { "answer": "This person co-founded Sun Microsystems and played a key role in developing Java.", "question": "Who is James Gosling?" }
+            },
+            {
+                "title": "Cybersecurity",
+                "400": { "answer": "This cyber attack involves tricking people into giving away personal information.", "question": "What is phishing?" },
+                "800": { "answer": "This security measure requires both a password and an additional verification step.", "question": "What is two-factor authentication?" },
+                "1200": { "answer": "This type of malware encrypts a victim’s data and demands payment for its release.", "question": "What is ransomware?" },
+                "1600": { "answer": "This security device or software monitors and controls incoming and outgoing network traffic.", "question": "What is a firewall?" },
+                "2000": { "answer": "This term refers to a software vulnerability that is unknown to the vendor and actively exploited by hackers.", "question": "What is a zero-day exploit?" }
+            },
+            {
+                "title": "Tech Innovations",
+                "400": { "answer": "This technology allows for the creation of physical objects from digital designs.", "question": "What is 3D printing?" },
+                "800": { "answer": "This field of computer science focuses on creating machines that can perform tasks that typically require human intelligence.", "question": "What is artificial intelligence?" },
+                "1200": { "answer": "This technology is the foundation of cryptocurrencies like Bitcoin.", "question": "What is blockchain?" },
+                "1600": { "answer": "This emerging technology uses quantum-mechanical phenomena to perform operations on data.", "question": "What is quantum computing?" },
+                "2000": { "answer": "This technology overlays digital information on the real world, often seen in smartphone apps.", "question": "What is augmented reality?" }
+            },
+            {
+                "title": "Tech Acquisitions",
+                "400": { "answer": "Google acquired this company known for smart thermostats and home automation.", "question": "What is Nest?" },
+                "800": { "answer": "Microsoft acquired this platform for $7.5 billion in 2018.", "question": "What is GitHub?" },
+                "1200": { "answer": "Facebook acquired this messaging app for $19 billion in 2014.", "question": "What is WhatsApp?" },
+                "1600": { "answer": "This video-sharing platform was acquired by Google in 2006.", "question": "What is YouTube?" },
+                "2000": { "answer": "This video chat service was acquired by Microsoft in 2011.", "question": "What is Skype?" }
+            },
+            {
+                "title": "Tech History",
+                "400": { "answer": "This company created the first hard disk drive in 1956.", "question": "What is IBM?" },
+                "800": { "answer": "This groundbreaking computer, introduced in 1984, was the first to feature a graphical user interface, a built-in screen, and a mouse, revolutionizing personal computing.", "question": "What is the Apple Macintosh?" },
+                "1200": { "answer": "This computer scientist invented the World Wide Web in 1989.", "question": "Who is Tim Berners-Lee?" },
+                "1600": { "answer": "This web browser was the dominant choice in the early days of the internet.", "question": "What is Netscape Navigator?" },
+                "2000": { "answer": "This computer problem was feared to cause widespread chaos at the turn of the millennium.", "question": "What is the Y2K bug?" }
+            }
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "Tech History",
+            "answer": "This groundbreaking computer, introduced in 1984, was the first to feature a graphical user interface, a built-in screen, and a mouse, revolutionizing personal computing.",
+            "question": "What is the Apple Macintosh?"
+        }
+    }
+}

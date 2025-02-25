@@ -1,0 +1,300 @@
+{
+    "metadata": {
+        "title": "Detroit Trivia",
+        "description": "A complete Jeopardy game featuring questions about Detroit, Michigan, including its history, scandals, famous people, music contributions, sports trivia, and more.",
+        "author": "",
+        "date": "2025-01-01",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "Detroit History",
+                "200": {
+                    "answer": "This French explorer founded Detroit in 1701.",
+                    "question": "Who is Antoine de la Mothe Cadillac?"
+                },
+                "400": {
+                    "answer": "This river separates Detroit from Windsor, Ontario.",
+                    "question": "What is the Detroit River?"
+                },
+                "600": {
+                    "answer": "This historic Detroit hotel hosted many famous guests, including Martin Luther King Jr.",
+                    "question": "What is the Book Cadillac Hotel?"
+                },
+                "800": {
+                    "answer": "This Detroit neighborhood is known for its historic mansions and was once home to the city's elite.",
+                    "question": "What is Indian Village?"
+                },
+                "1000": {
+                    "answer": "This Detroit landmark is the tallest building in the city.",
+                    "question": "What is the Renaissance Center?"
+                }
+            },
+            {
+                "title": "Detroit Scandals",
+                "200": {
+                    "answer": "This former Detroit mayor was convicted of corruption and sentenced to 28 years in prison.",
+                    "question": "Who is Kwame Kilpatrick?"
+                },
+                "400": {
+                    "answer": "This Detroit-based automaker was involved in a major emissions scandal in the 2010s.",
+                    "question": "What is Volkswagen?"
+                },
+                "600": {
+                    "answer": "This Detroit police chief was involved in a scandal involving a stripper named Tamara Greene.",
+                    "question": "Who is Jerry Oliver?"
+                },
+                "800": {
+                    "answer": "This Detroit city council member was convicted of bribery in 2013.",
+                    "question": "Who is Monica Conyers?"
+                },
+                "1000": {
+                    "answer": "This Detroit judge was removed from the bench for misconduct in 2019.",
+                    "question": "Who is Wade McCree?"
+                }
+            },
+            {
+                "title": "Famous Detroiters",
+                "200": {
+                    "answer": "This Detroit-born singer is known as the 'Queen of Soul.'",
+                    "question": "Who is Aretha Franklin?"
+                },
+                "400": {
+                    "answer": "This Detroit native co-founded Motown Records.",
+                    "question": "Who is Berry Gordy?"
+                },
+                "600": {
+                    "answer": "This Detroit-born actor starred in the 'Beverly Hills Cop' series.",
+                    "question": "Who is Eddie Murphy?"
+                },
+                "800": {
+                    "answer": "This Detroit-born rapper is known for hits like 'Lose Yourself' and 'Stan.'",
+                    "question": "Who is Eminem?"
+                },
+                "1000": {
+                    "answer": "This Detroit-born civil rights leader delivered the 'I Have a Dream' speech.",
+                    "question": "Who is Martin Luther King Jr.?"
+                }
+            },
+            {
+                "title": "Detroit Music",
+                "200": {
+                    "answer": "This Detroit-based record label was founded in 1959 and produced hits for artists like The Supremes and The Temptations.",
+                    "question": "What is Motown?"
+                },
+                "400": {
+                    "answer": "This Detroit-born singer is known for hits like 'Superstition' and 'Isn't She Lovely.'",
+                    "question": "Who is Stevie Wonder?"
+                },
+                "600": {
+                    "answer": "This Detroit-based rock band is known for hits like 'Seven Nation Army' and 'Fell in Love with a Girl.'",
+                    "question": "Who are The White Stripes?"
+                },
+                "800": {
+                    "answer": "This Detroit-born singer is known for hits like 'My Girl' and 'Ain't Too Proud to Beg.'",
+                    "question": "Who is David Ruffin?"
+                },
+                "1000": {
+                    "answer": "This Detroit-born singer is known for hits like 'What's Going On' and 'Let's Get It On.'",
+                    "question": "Who is Marvin Gaye?"
+                }
+            },
+            {
+                "title": "Detroit Sports",
+                "200": {
+                    "answer": "This Detroit baseball team has won four World Series championships.",
+                    "question": "Who are the Detroit Tigers?"
+                },
+                "400": {
+                    "answer": "This Detroit basketball team has won three NBA championships.",
+                    "question": "Who are the Detroit Pistons?"
+                },
+                "600": {
+                    "answer": "This Detroit hockey team has won 11 Stanley Cup championships.",
+                    "question": "Who are the Detroit Red Wings?"
+                },
+                "800": {
+                    "answer": "This Detroit football team has never won a Super Bowl.",
+                    "question": "Who are the Detroit Lions?"
+                },
+                "1000": {
+                    "answer": "This Detroit-born boxer was known as the 'Brown Bomber.'",
+                    "question": "Who is Joe Louis?"
+                }
+            },
+            {
+                "title": "Detroit Landmarks",
+                "200": {
+                    "answer": "This Detroit museum is dedicated to African American history and culture.",
+                    "question": "What is the Charles H. Wright Museum of African American History?"
+                },
+                "400": {
+                    "answer": "This Detroit theater is known for its ornate architecture and hosts Broadway shows and concerts.",
+                    "question": "What is the Fox Theatre?"
+                },
+                "600": {
+                    "answer": "This Detroit park is located on an island in the Detroit River.",
+                    "question": "What is Belle Isle?"
+                },
+                "800": {
+                    "answer": "This Detroit building is home to the headquarters of General Motors.",
+                    "question": "What is the Renaissance Center?"
+                },
+                "1000": {
+                    "answer": "This Detroit landmark is a giant tire located along I-94.",
+                    "question": "What is the Uniroyal Giant Tire?"
+                }
+            }
+        ]
+    },
+    "double-jeopardy": {
+        "categories": [
+            {
+                "title": "Detroit History",
+                "400": {
+                    "answer": "This Detroit neighborhood is known for its historic mansions and was once home to the city's elite.",
+                    "question": "What is Indian Village?"
+                },
+                "800": {
+                    "answer": "This Detroit landmark is the tallest building in the city.",
+                    "question": "What is the Renaissance Center?"
+                },
+                "1200": {
+                    "answer": "This historic Detroit hotel hosted many famous guests, including Martin Luther King Jr.",
+                    "question": "What is the Book Cadillac Hotel?"
+                },
+                "1600": {
+                    "answer": "This French explorer founded Detroit in 1701.",
+                    "question": "Who is Antoine de la Mothe Cadillac?"
+                },
+                "2000": {
+                    "answer": "This river separates Detroit from Windsor, Ontario.",
+                    "question": "What is the Detroit River?"
+                }
+            },
+            {
+                "title": "Detroit Scandals",
+                "400": {
+                    "answer": "This former Detroit mayor was convicted of corruption and sentenced to 28 years in prison.",
+                    "question": "Who is Kwame Kilpatrick?"
+                },
+                "800": {
+                    "answer": "This Detroit-based automaker was involved in a major emissions scandal in the 2010s.",
+                    "question": "What is Volkswagen?"
+                },
+                "1200": {
+                    "answer": "This Detroit police chief was involved in a scandal involving a stripper named Tamara Greene.",
+                    "question": "Who is Jerry Oliver?"
+                },
+                "1600": {
+                    "answer": "This Detroit city council member was convicted of bribery in 2013.",
+                    "question": "Who is Monica Conyers?"
+                },
+                "2000": {
+                    "answer": "This Detroit judge was removed from the bench for misconduct in 2019.",
+                    "question": "Who is Wade McCree?"
+                }
+            },
+            {
+                "title": "Famous Detroiters",
+                "400": {
+                    "answer": "This Detroit-born singer is known as the 'Queen of Soul.'",
+                    "question": "Who is Aretha Franklin?"
+                },
+                "800": {
+                    "answer": "This Detroit native co-founded Motown Records.",
+                    "question": "Who is Berry Gordy?"
+                },
+                "1200": {
+                    "answer": "This Detroit-born actor starred in the 'Beverly Hills Cop' series.",
+                    "question": "Who is Eddie Murphy?"
+                },
+                "1600": {
+                    "answer": "This Detroit-born rapper is known for hits like 'Lose Yourself' and 'Stan.'",
+                    "question": "Who is Eminem?"
+                },
+                "2000": {
+                    "answer": "This Detroit-born civil rights leader delivered the 'I Have a Dream' speech.",
+                    "question": "Who is Martin Luther King Jr.?"
+                }
+            },
+            {
+                "title": "Detroit Music",
+                "400": {
+                    "answer": "This Detroit-based record label was founded in 1959 and produced hits for artists like The Supremes and The Temptations.",
+                    "question": "What is Motown?"
+                },
+                "800": {
+                    "answer": "This Detroit-born singer is known for hits like 'Superstition' and 'Isn't She Lovely.'",
+                    "question": "Who is Stevie Wonder?"
+                },
+                "1200": {
+                    "answer": "This Detroit-based rock band is known for hits like 'Seven Nation Army' and 'Fell in Love with a Girl.'",
+                    "question": "Who are The White Stripes?"
+                },
+                "1600": {
+                    "answer": "This Detroit-born singer is known for hits like 'My Girl' and 'Ain't Too Proud to Beg.'",
+                    "question": "Who is David Ruffin?"
+                },
+                "2000": {
+                    "answer": "This Detroit-born singer is known for hits like 'What's Going On' and 'Let's Get It On.'",
+                    "question": "Who is Marvin Gaye?"
+                }
+            },
+            {
+                "title": "Detroit Sports",
+                "400": {
+                    "answer": "This Detroit baseball team has won four World Series championships.",
+                    "question": "Who are the Detroit Tigers?"
+                },
+                "800": {
+                    "answer": "This Detroit basketball team has won three NBA championships.",
+                    "question": "Who are the Detroit Pistons?"
+                },
+                "1200": {
+                    "answer": "This Detroit hockey team has won 11 Stanley Cup championships.",
+                    "question": "Who are the Detroit Red Wings?"
+                },
+                "1600": {
+                    "answer": "This Detroit football team has never won a Super Bowl.",
+                    "question": "Who are the Detroit Lions?"
+                },
+                "2000": {
+                    "answer": "This Detroit-born boxer was known as the 'Brown Bomber.'",
+                    "question": "Who is Joe Louis?"
+                }
+            },
+            {
+                "title": "Detroit Landmarks",
+                "400": {
+                    "answer": "This Detroit museum is dedicated to African American history and culture.",
+                    "question": "What is the Charles H. Wright Museum of African American History?"
+                },
+                "800": {
+                    "answer": "This Detroit theater is known for its ornate architecture and hosts Broadway shows and concerts.",
+                    "question": "What is the Fox Theatre?"
+                },
+                "1200": {
+                    "answer": "This Detroit park is located on an island in the Detroit River.",
+                    "question": "What is Belle Isle?"
+                },
+                "1600": {
+                    "answer": "This Detroit building is home to the headquarters of General Motors.",
+                    "question": "What is the Renaissance Center?"
+                },
+                "2000": {
+                    "answer": "This Detroit landmark is a giant tire located along I-94.",
+                    "question": "What is the Uniroyal Giant Tire?"
+                }
+            }
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "Detroit History",
+            "answer": "This Detroit landmark is the tallest building in the city.",
+            "question": "What is the Renaissance Center?"
+        }
+    }
+}
