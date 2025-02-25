@@ -1,0 +1,300 @@
+{
+    "metadata": {
+        "title": "Star Wars Jeopardy",
+        "description": "A Jeopardy game filled with Star Wars trivia.",
+        "author": "Your Name",
+        "date": "2025-01-01",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "Characters",
+                "200": {
+                    "answer": "This character is the son of Anakin Skywalker.",
+                    "question": "Who is Luke Skywalker?"
+                },
+                "400": {
+                    "answer": "This character is a Wookiee and co-pilot of the Millennium Falcon.",
+                    "question": "Who is Chewbacca?"
+                },
+                "600": {
+                    "answer": "This character is a protocol droid fluent in over six million forms of communication.",
+                    "question": "Who is C-3PO?"
+                },
+                "800": {
+                    "answer": "This character is the princess of Alderaan and a leader in the Rebel Alliance.",
+                    "question": "Who is Leia Organa?"
+                },
+                "1000": {
+                    "answer": "This character is a Sith Lord and the apprentice of Emperor Palpatine.",
+                    "question": "Who is Darth Vader?"
+                }
+            },
+            {
+                "title": "Planets",
+                "200": {
+                    "answer": "This desert planet is the home of Anakin and Luke Skywalker.",
+                    "question": "What is Tatooine?"
+                },
+                "400": {
+                    "answer": "This planet is the capital of the Galactic Republic and later the Galactic Empire.",
+                    "question": "What is Coruscant?"
+                },
+                "600": {
+                    "answer": "This forest moon is home to the Ewoks.",
+                    "question": "What is Endor?"
+                },
+                "800": {
+                    "answer": "This planet is the home of the Wookiees.",
+                    "question": "What is Kashyyyk?"
+                },
+                "1000": {
+                    "answer": "This ice planet is the location of the Rebel Alliance's Echo Base.",
+                    "question": "What is Hoth?"
+                }
+            },
+            {
+                "title": "Starships",
+                "200": {
+                    "answer": "This starship is known as the fastest hunk of junk in the galaxy.",
+                    "question": "What is the Millennium Falcon?"
+                },
+                "400": {
+                    "answer": "This starship is the flagship of Darth Vader.",
+                    "question": "What is the Executor?"
+                },
+                "600": {
+                    "answer": "This starship is the personal ship of Boba Fett.",
+                    "question": "What is Slave I?"
+                },
+                "800": {
+                    "answer": "This starship is used by the Jedi to travel to Kamino in Episode II.",
+                    "question": "What is the Jedi Starfighter?"
+                },
+                "1000": {
+                    "answer": "This starship is the main capital ship of the Rebel Alliance.",
+                    "question": "What is the Mon Calamari Cruiser?"
+                }
+            },
+            {
+                "title": "The Force",
+                "200": {
+                    "answer": "This is the dark side equivalent of a Jedi.",
+                    "question": "What is a Sith?"
+                },
+                "400": {
+                    "answer": "This is the name of the Jedi's weapon.",
+                    "question": "What is a lightsaber?"
+                },
+                "600": {
+                    "answer": "This is the Jedi Master who trained Luke Skywalker.",
+                    "question": "Who is Yoda?"
+                },
+                "800": {
+                    "answer": "This is the term for the ability to move objects with the mind.",
+                    "question": "What is telekinesis?"
+                },
+                "1000": {
+                    "answer": "This is the prophecy child who will bring balance to the Force.",
+                    "question": "Who is Anakin Skywalker?"
+                }
+            },
+            {
+                "title": "Quotes",
+                "200": {
+                    "answer": "This character said, 'I am your father.'",
+                    "question": "Who is Darth Vader?"
+                },
+                "400": {
+                    "answer": "This character said, 'Do or do not, there is no try.'",
+                    "question": "Who is Yoda?"
+                },
+                "600": {
+                    "answer": "This character said, 'Help me, Obi-Wan Kenobi. You're my only hope.'",
+                    "question": "Who is Leia Organa?"
+                },
+                "800": {
+                    "answer": "This character said, 'I've got a bad feeling about this.'",
+                    "question": "Who is Han Solo?"
+                },
+                "1000": {
+                    "answer": "This character said, 'In my experience, there's no such thing as luck.'",
+                    "question": "Who is Obi-Wan Kenobi?"
+                }
+            },
+            {
+                "title": "Droids",
+                "200": {
+                    "answer": "This astromech droid is a companion to Anakin and Luke Skywalker.",
+                    "question": "Who is R2-D2?"
+                },
+                "400": {
+                    "answer": "This droid is a bounty hunter in The Empire Strikes Back.",
+                    "question": "Who is IG-88?"
+                },
+                "600": {
+                    "answer": "This droid is a medical droid that assists in the birth of Luke and Leia.",
+                    "question": "What is a GH-7 medical droid?"
+                },
+                "800": {
+                    "answer": "This droid is a protocol droid built by Anakin Skywalker.",
+                    "question": "Who is C-3PO?"
+                },
+                "1000": {
+                    "answer": "This droid is a battle droid commander in The Phantom Menace.",
+                    "question": "Who is OOM-9?"
+                }
+            }
+        ]
+    },
+    "doiuble-jeopardy": {
+        "categories": [
+            {
+                "title": "Vehicles",
+                "400": {
+                    "answer": "This vehicle is used by the Empire to patrol the forests of Endor.",
+                    "question": "What is an AT-ST?"
+                },
+                "800": {
+                    "answer": "This vehicle is used by the Rebel Alliance to attack the Death Star.",
+                    "question": "What is an X-wing?"
+                },
+                "1200": {
+                    "answer": "This vehicle is used by the Empire to attack the Rebel base on Hoth.",
+                    "question": "What is an AT-AT?"
+                },
+                "1600": {
+                    "answer": "This vehicle is used by Anakin Skywalker in the Boonta Eve Classic.",
+                    "question": "What is a podracer?"
+                },
+                "2000": {
+                    "answer": "This vehicle is used by the Empire to transport troops and equipment.",
+                    "question": "What is a Lambda-class shuttle?"
+                }
+            },
+            {
+                "title": "Battles",
+                "400": {
+                    "answer": "This battle is the first major victory for the Rebel Alliance.",
+                    "question": "What is the Battle of Yavin?"
+                },
+                "800": {
+                    "answer": "This battle is the final confrontation between the Rebel Alliance and the Galactic Empire.",
+                    "question": "What is the Battle of Endor?"
+                },
+                "1200": {
+                    "answer": "This battle is the first major conflict of the Clone Wars.",
+                    "question": "What is the Battle of Geonosis?"
+                },
+                "1600": {
+                    "answer": "This battle is the last stand of the Jedi Order.",
+                    "question": "What is the Battle of Coruscant?"
+                },
+                "2000": {
+                    "answer": "This battle is the first major conflict between the Resistance and the First Order.",
+                    "question": "What is the Battle of Starkiller Base?"
+                }
+            },
+            {
+                "title": "Species",
+                "400": {
+                    "answer": "This species is known for their large size and strength, and they live on Kashyyyk.",
+                    "question": "What are Wookiees?"
+                },
+                "800": {
+                    "answer": "This species is known for their small size and large ears, and Yoda is one of them.",
+                    "question": "What are Yoda's species?"
+                },
+                "1200": {
+                    "answer": "This species is known for their blue skin and red eyes, and Grand Admiral Thrawn is one of them.",
+                    "question": "What are Chiss?"
+                },
+                "1600": {
+                    "answer": "This species is known for their long necks and are the cloners of Kamino.",
+                    "question": "What are Kaminoans?"
+                },
+                "2000": {
+                    "answer": "This species is known for their amphibious nature and live on Naboo.",
+                    "question": "What are Gungans?"
+                }
+            },
+            {
+                "title": "Weapons",
+                "400": {
+                    "answer": "This weapon is used by the Jedi and Sith.",
+                    "question": "What is a lightsaber?"
+                },
+                "800": {
+                    "answer": "This weapon is used by stormtroopers.",
+                    "question": "What is a blaster?"
+                },
+                "1200": {
+                    "answer": "This weapon is used by Boba Fett.",
+                    "question": "What is an EE-3 carbine rifle?"
+                },
+                "1600": {
+                    "answer": "This weapon is used by the Wookiees.",
+                    "question": "What is a bowcaster?"
+                },
+                "2000": {
+                    "answer": "This weapon is used by the Mandalorians.",
+                    "question": "What is a vibroblade?"
+                }
+            },
+            {
+                "title": "Organizations",
+                "400": {
+                    "answer": "This organization is the main antagonist in the original trilogy.",
+                    "question": "What is the Galactic Empire?"
+                },
+                "800": {
+                    "answer": "This organization is the main protagonist in the original trilogy.",
+                    "question": "What is the Rebel Alliance?"
+                },
+                "1200": {
+                    "answer": "This organization is the main antagonist in the sequel trilogy.",
+                    "question": "What is the First Order?"
+                },
+                "1600": {
+                    "answer": "This organization is the main protagonist in the sequel trilogy.",
+                    "question": "What is the Resistance?"
+                },
+                "2000": {
+                    "answer": "This organization is the main antagonist in the prequel trilogy.",
+                    "question": "What is the Sith?"
+                }
+            },
+            {
+                "title": "Miscellaneous",
+                "400": {
+                    "answer": "This is the name of Han Solo's ship.",
+                    "question": "What is the Millennium Falcon?"
+                },
+                "800": {
+                    "answer": "This is the name of the planet where the Jedi Temple is located.",
+                    "question": "What is Coruscant?"
+                },
+                "1200": {
+                    "answer": "This is the name of the bounty hunter who captured Han Solo.",
+                    "question": "Who is Boba Fett?"
+                },
+                "1600": {
+                    "answer": "This is the name of the creature that lives in the garbage compactor on the Death Star.",
+                    "question": "What is a Dianoga?"
+                },
+                "2000": {
+                    "answer": "This is the name of the podracer who competes against Anakin Skywalker in The Phantom Menace.",
+                    "question": "Who is Sebulba?"
+                }
+            }
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "The Force",
+            "answer": "This is the name of the Jedi who becomes Darth Vader.",
+            "question": "Who is Anakin Skywalker?"
+        }
+    }
+}
