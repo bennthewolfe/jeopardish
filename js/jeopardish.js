@@ -1,4 +1,5 @@
-$(document).ready(function () {
+// $.noConflict();
+jQuery(document).ready(function () {
     // initializers
     $answerModal = $('#answer-modal');
     $obscurer = $('#obscurer');
@@ -7,14 +8,14 @@ $(document).ready(function () {
     $('#load-game').on('click', function() { loadGame(); });
     $('#reset-game').on('click', function() { resetGame(); });
     $('#proceed').on('click', function() { proceed(); });
-    $('#game-board li:not(.categories li)').on('click', function () {
+    $('.answer-tile').on('click', function () {
         $(this).toggleClass('answered');
-        $answerModal.find('p').text($(this).find('.answer').text());
-        $answerModal.find('#cur-tile-value').text($(this).find('.value').text());
-        $answerModal.find('#cur-tile-question').data('question',$(this).find('.question').text());
+        $answerModal.find('p').text($(this).data('answer'));
+        $answerModal.find('#cur-tile-value').text($(this).data('value'));
+        $answerModal.find('#cur-tile-question').data('question',$(this).data('question'));
         $answerModal.addClass('active');
         $obscurer.addClass('active');
-        console.log('Clicked ' + $(this).parent('ol').index() + '.' + $(this).index());
+        console.log('Clicked ' + $(this).parent('div').index() + '-' + $(this).index());
     });
     $('#close-icon, #obscurer').on('click',function() {
         $answerModal.removeClass('active');
@@ -28,53 +29,60 @@ $(document).ready(function () {
 
 function loadGame() {
     $.getJSON('http://localhost:3000/games/wings-of-fire', function(data) {
-        buildGameBoard(data);
+        populateGameBoard(data);
     }).fail(function() {
         console.log("An error has occurred.");
     });
 }
 
-function buildGameBoard(json) {
-    console.log('Building game board...');
+function populateGameBoard(json) {
+    console.log('Populating game board...');
 
     // Single Jeopardy
+    console.log('Building single jeopardy board...');
     $.each(json['single-jeopardy'].categories, function(categoryIndex, categoryValue) {
         $.each(Object.entries(this), function(tileIndex, tileDetails) {
             if (this[0] == 'title') {
-                $('#single-jeopardy ol.categories li').eq(categoryIndex).text(categoryValue.title);
+                $('#single-jeopardy .category-tile').eq(categoryIndex).text(categoryValue.title);
             } else {
-                $('#single-jeopardy ol').not('.categories').eq(categoryIndex)
-                    .find('li').eq(tileIndex).find('.answer').text(tileDetails[1].answer)
-                    .siblings('.question').text(tileDetails[1].question);
+                $('#single-jeopardy .answers-board > div').eq(categoryIndex)
+                    .find('.answer-tile').eq(tileIndex).data('answer',tileDetails[1].answer)
+                    .data('question',tileDetails[1].question);
             }
         });
     });
+    console.log('Populated single jeopardy board');
 
     // Double Jeopardy
+    console.log('Populating double jeopardy board...');
     $.each(json['double-jeopardy'].categories, function(categoryIndex, categoryValue) {
         $.each(Object.entries(this), function(tileIndex, tileDetails) {
             if (this[0] == 'title') {
-                $('#double-jeopardy ol.categories li').eq(categoryIndex).text(categoryValue.title);
+                $('#double-jeopardy .category-tile').eq(categoryIndex).text(categoryValue.title);
             } else {
-                $('#double-jeopardy ol').not('.categories').eq(categoryIndex)
-                    .find('li').eq(tileIndex).find('.answer').text(tileDetails[1].answer)
-                    .siblings('.question').text(tileDetails[1].question);
+                $('#double-jeopardy .answers-board > div').eq(categoryIndex)
+                    .find('.answer-tile').eq(tileIndex).data('answer',tileDetails[1].answer)
+                    .data('question',tileDetails[1].question);
             }
         });
     });
+    console.log('Poulated double jeopardy board');
+    console.log('Game board populated.');
 }
 
 function resetGame() {
-    console.log('resetting game');
-    $('#single-jeopardy').addClass('active');
-    $('#double-jeopardy').removeClass('active');
-    $('li').removeClass('answered');
-    $('.categories li').text('Category Title');
-    $('li .answer').text('');
-    $('li .question').text('');
+    $('#single-jeopardy').removeClass('hidden').addClass('active');
+    $('#double-jeopardy').addClass('hidden').removeClass('active');
+    $('.answer-tile').removeClass('answered');
+    $('.category-tile').each(function(){
+        var placeholderText = $(this).data('placeholder');
+        $(this).text(placeholderText);
+    });
+    $('.answer-tile').data('answer','').data('question','');
+    console.log('Game successfully reset.');
 }
 
 function proceed() {
-    $('#single-jeopardy').removeClass('active');
-    $('#double-jeopardy').addClass('active');
+    $('#single-jeopardy').addClass('hidden').removeClass('active');
+    $('#double-jeopardy').removeClass('hidden').addClass('active');
 }

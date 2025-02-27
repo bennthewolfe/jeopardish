@@ -1,5 +1,19 @@
+/*
+Fonts used in this file:
+    - Gyparody
+    - Open Sans
+
+Colors
+    - #000 - Black
+    - #fff - White
+    - blue - Jeopardy Blue
+    - #cacaca - Light Gray
+    - #333 - Dark Gray
+*/
+
+
 body {
-    background-color: blue;
+    background-color: #000;
     color: #fff;
 }
 
@@ -9,23 +23,7 @@ h1 {
     font-weight: 700;
 }
 
-sidebar {
-    display: block;
-    clear: both;
-}
-
-footer {
-    display: block;
-    clear: both;
-}
-
 #game-board {
-    display: block;
-    width: 90%;
-    height: 80%;
-    position: relative;
-    margin: 0 auto;
-    color: #fff;
     font-weight: bold;
     font-size: 1.5em;
 }
@@ -45,18 +43,49 @@ footer {
     display: block;
 }
 
-#single-jeopardy,
-#double-jeopardy,
-#final-jeopardy {
-    display: none;
-    height: 100%;
-    width: 100%;
+#game-board {
+    text-align: center;
 }
 
-#single-jeopardy.active,
-#double-jeopardy.active,
-#final-jeopardy.active {
+#single-jeopardy,
+#double-jeopardy,
+#final-jeopardy {}
+
+#single-jeopardy.hidden,
+#double-jeopardy.hidden,
+#final-jeopardy.hidden {
+    display: none;
+}
+
+.categories {
+    margin-bottom: .8rem;
+}
+
+.category-tile {
+    background-color: blue;
+    border: 1px solid #fff;
+    line-height: 1.2em;
+    height: 100%;
+    padding: 10% 5%;
+}
+
+.answer-tile {
     display: block;
+    width: 100%;
+    height: 19%;
+    border: solid #cacaca 1px;
+    text-align: center;
+    padding: 0;
+    margin: .5rem 0;
+    cursor: pointer;
+    color: gold;
+    background-color: blue;
+    font-size: 2em;
+    line-height: 2em;
+}
+
+.answer-tile.answered {
+    color: transparent;
 }
 
 #answer-modal {
@@ -111,72 +140,4 @@ footer {
 #answer-modal #cur-tile-question {
     bottom: 0;
     right: 0;
-}
-
-#game-board ol.categories {
-    display: block;
-    position: relative;
-    clear: both;
-    width: 100%;
-    height: 20%;
-    min-height: 60px;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-#game-board ol.categories li {
-    display: block;
-    float: left;
-    width: 15%;
-    height: 100%;
-    min-height: 60px;
-    border: solid #cacaca 1px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
-    font-size: 1em;
-    line-height: .8em;
-}
-
-#game-board ol {
-    display: block;
-    float: left;
-    width: 15%;
-    height: 80%;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    list-style: none;
-}
-
-#game-board li {
-    display: block;
-    width: 100%;
-    height: 19%;
-    border: solid #cacaca 1px;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
-    color: #fff;
-}
-
-#game-board li {
-    line-height: 60px;
-    background-color: blue;
-}
-
-#game-board li.answered {
-    color: transparent;
-    background-color: #fff;
-}
-
-#game-board li .answer {
-    display: none;
-}
-
-#game-board li .question {
-    display: none;
 }
