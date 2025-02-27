@@ -3,6 +3,11 @@ body {
     color: #fff;
 }
 
+h1 {
+    font-family: 'Gyparody', serif;
+    font-size: 3em;
+}
+
 sidebar {
     display: block;
     clear: both;

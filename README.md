@@ -17,5 +17,10 @@ Repo : https://github.com/bennthewolfe/jeopardish
 - Download dependencies for offline play
 - Use the JQuery data to store all this data on the cells instead of text in divs
 
+## Links
+- https://commons.wikimedia.org/wiki/File:Jeopardy!_game_board_US.svg
+- https://www.dafont.com/geoparody.font (free for commercial use as of 2025/02/26)
+- https://typodermicfonts.com/geoparody/ (free on Adobe CC)
+
 ### Credits
 - &copy;2025 Attempted Murder Studios | http://www.attemptedmurderstudios.com
