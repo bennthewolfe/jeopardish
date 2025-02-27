@@ -28,6 +28,7 @@ jQuery(document).ready(function () {
 });
 
 function loadGame() {
+    resetGame();
     $.getJSON('http://localhost:3000/games/wings-of-fire', function(data) {
         populateGameBoard(data);
     }).fail(function() {
