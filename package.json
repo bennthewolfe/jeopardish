@@ -4,6 +4,7 @@
   "description": "A jeopardy-like clone to play with my family.",
   "main": "server.js",
   "scripts": {
+    "start": "node --watch server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/bennthewolfe/jeopardish#readme",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "npm": "^11.1.0"
   }
 }

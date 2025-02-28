@@ -9,7 +9,7 @@ Repo : https://github.com/bennthewolfe/jeopardish
 2. Run ```npm install```
 
 ## Instructions
-1. Run ```node server.js``` to start the Express API
+1. Run ```node --watch server.js``` or ```npm start``` to start the Express API
 2. Luanch in a browser (currently requires internet connection)
 
 ## Ideas
