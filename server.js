@@ -15,6 +15,10 @@ app.get('/games/:gameFile', (req, res) => {
     const gameFile = decodeURIComponent(req.params.gameFile);
 
     if (gameFile === 'random') {
+        var games = fs.readdirSync(path.join(__dirname, 'content', 'full-games'));
+        games = games.filter(game => game.endsWith('.json') && game !== 'template.json');
+        const randomGame = games[Math.floor(Math.random() * games.length)];
+        res.sendFile(path.join(__dirname, 'content', 'full-games', randomGame));
     } else if (fs.existsSync(path.join(__dirname,'content','full-games',gameFile))) {
         res.sendFile(path.join(__dirname, 'content','full-games', gameFile));
     }
