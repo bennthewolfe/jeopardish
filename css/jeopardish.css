@@ -90,10 +90,6 @@ h1 {
     text-align: center;
 }
 
-#single-jeopardy,
-#double-jeopardy,
-#final-jeopardy {}
-
 #single-jeopardy.hidden,
 #double-jeopardy.hidden,
 #final-jeopardy.hidden {
@@ -185,4 +181,10 @@ h1 {
 #answer-modal #cur-tile-question {
     bottom: 0;
     right: 0;
+}
+
+#scoreboard {
+    margin-top: 4rem;
+    background-color: #cacaca;
+    color: #333;
 }
