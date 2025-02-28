@@ -13,9 +13,10 @@ Repo : https://github.com/bennthewolfe/jeopardish
 2. Luanch in a browser (currently requires internet connection)
 
 ## Ideas
-- Attach to a Jeopardy API?
-- Download dependencies for offline play
-- Use the JQuery data to store all this data on the cells instead of text in divs
+- [] Attach to a Jeopardy API?
+- [] Download dependencies for offline play
+- [x] Use the JQuery data to store all this data on the cells instead of text in divs (done 2/27/25)
+- [] Use the search bar in nav to create a json game file on the fly (with chat gpt API)
 
 ## Links
 - https://commons.wikimedia.org/wiki/File:Jeopardy!_game_board_US.svg
