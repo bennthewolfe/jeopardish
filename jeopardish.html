@@ -30,28 +30,27 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Load Game
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+            <ul class="dropdown-menu" id="available-games">
+              <li><a class="dropdown-item" href="content/full-games/wings-of-fire1.json">Wings of Fire 1</a></li>
+              <li><a class="dropdown-item" href="content/full-games/wings-of-fire2.json">Wings of Fire 2</a></li>
+              <li><a class="dropdown-item" href="content/full-games/harry-potter1.json">Harry Potter 1</a></li>
+              <li><a class="dropdown-item" href="content/full-games/star-wars1.json">Star Wars 1</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Random</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#" id="reset-game">Reset</a>
           </li>
-          <li class="nav-item"><button id="reset-game" class="btn btn-outline-success">Reset</button></li>
-          <li class="nav-item"><button id="load-game" class="btn btn-outline-success">Load Game</button></li>
-          <li class="nav-item"><button id="proceed" class="btn btn-outline-success">Proceed</button></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="proceed">Proceed</a>
+          </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

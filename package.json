@@ -24,7 +24,9 @@
   "homepage": "https://github.com/bennthewolfe/jeopardish#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "helmet": "^8.0.0",
     "npm": "^11.1.0"
   }
 }
