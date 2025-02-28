@@ -13,7 +13,10 @@ jQuery(document).ready(function () {
         e.preventDefault();
         resetGame();
     });
-    $('#proceed').on('click', function () { proceed(); });
+    $('#proceed').on('click', function (e) {
+        e.preventDefault();
+        proceed();
+    });
     $('.answer-tile').on('click', function () {
         $(this).toggleClass('answered');
         $answerModal.find('p').text($(this).data('answer'));
