@@ -274,6 +274,7 @@
       <div id="answer-modal">
         <div id="close-icon">X</div>
         <div id="cur-tile-value"></div>
+        <div id="scoreboard-preview"></div>
         <div id="cur-tile-question">?</div>
         <p id="cur-tile-answer">Answer</p>
       </div>
@@ -287,7 +288,7 @@
     </div>
     <template id="player-template">
       <div id="player{{playerIndex}}" class="col player" data-player="{{playerName}}" data-player-index="{{playerIndex}}">
-        <h2>{{playerName}}</h2>
+        <h2><img src="images/avatar{{avatarNumber}}.svg" class="player-avatar" />{{playerName}}</h2>
         <div class="score">0</div>
         <p><button class="btn btn-danger remove-player">Remove</button></p>
       </div>

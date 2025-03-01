@@ -23,14 +23,24 @@ jQuery(document).ready(function () {
         e.preventDefault();
         var name = $('#new-player-name').val();
         var playerIndex = players.length;
-        addPlayer(name, playerIndex);
+        var player = addPlayer(name, playerIndex);
 
         // Add to DOM
         var customizedTemplate = $('#player-template').clone().html();
         customizedTemplate = customizedTemplate.replace(/{{playerName}}/g, name);
         customizedTemplate = customizedTemplate.replace(/{{playerIndex}}/g, playerIndex);
+        customizedTemplate = customizedTemplate.replace(/{{avatarNumber}}/g, playerIndex % 5);
         $('#add-player').before(customizedTemplate);
-        $('#player'+ playerIndex).find('.remove-player').on('click', function () {
+
+        var $newPlayer = $('#player' + playerIndex);
+
+        // Change player avatar color
+        // Load and modify SVG
+        var $playerAvatar = $newPlayer.find('.player-avatar');
+        var color = player.getColor();
+
+        // Add event listener to remove player
+        $('#player' + playerIndex).find('.remove-player').on('click', function () {
             var $playerParent = $(this).parents('.player').first();
             var playerIndex = $playerParent.data('player-index');
             $playerParent.remove();
@@ -51,6 +61,7 @@ jQuery(document).ready(function () {
         $answerModal.find('p').text($(this).data('answer'));
         $answerModal.find('#cur-tile-value').text($(this).data('value'));
         $answerModal.find('#cur-tile-question').data('question', $(this).data('question'));
+        $answerModal.find('#scoreboard-preview').text('People');
         $answerModal.addClass('active');
         $obscurer.addClass('active');
         console.log('Clicked ' + $(this).parent('div').index() + '-' + $(this).index());
@@ -140,6 +151,7 @@ class Player {
         this.name = name;
         this.playerIndex = playerIndex;
         this.score = 0;
+        this.color = getRandomColor();
     }
 
     getScore() {
@@ -165,6 +177,14 @@ class Player {
     setName(newName) {
         this.name = newName;
     }
+
+    getColor() {
+        return this.color;
+    }
+
+    setColor(newColor) {
+        this.color = newColor;
+    }
 }
 
 function addPlayer(name, playerIndex) {
@@ -173,4 +193,15 @@ function addPlayer(name, playerIndex) {
 
     console.log(`Added player ${name}.`);
     console.log(players);
+
+    return player;
+}
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '#';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
 }
