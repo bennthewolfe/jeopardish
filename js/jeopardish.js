@@ -25,9 +25,26 @@ jQuery(document).ready(function () {
         var playerIndex = players.length;
         addPlayer(name, playerIndex);
 
-        // Add player to DOM
-        var $newPlayer = $('<div id="player1" class="col" data-player="Player / Team 1"><h2>Player / Team 1</h2><div class="score">0</div><p><button class="btn btn-danger remove-player">Remove</button></p></div>');
-        $('#add-player').before($newPlayer);
+        // Add to DOM
+        var customizedTemplate = $('#player-template').clone().html();
+        customizedTemplate = customizedTemplate.replace(/{{playerName}}/g, name);
+        customizedTemplate = customizedTemplate.replace(/{{playerIndex}}/g, playerIndex);
+        $('#add-player').before(customizedTemplate);
+        $('#player'+ playerIndex).find('.remove-player').on('click', function () {
+            var $playerParent = $(this).parents('.player').first();
+            var playerIndex = $playerParent.data('player-index');
+            $playerParent.remove();
+
+            // Remove from players array
+            const index = players.findIndex(player => player.getPlayerIndex() === playerIndex);
+            if (index !== -1) {
+                players.splice(index, 1);
+            }
+            console.log(players);
+        });
+
+        // Clear input
+        $('#new-player-name').val('');
     });
     $('.answer-tile').on('click', function () {
         $(this).toggleClass('answered');
@@ -153,5 +170,7 @@ class Player {
 function addPlayer(name, playerIndex) {
     var player = new Player(name, playerIndex);
     players.push(player);
+
     console.log(`Added player ${name}.`);
+    console.log(players);
 }
