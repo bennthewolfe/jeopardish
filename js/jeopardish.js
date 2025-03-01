@@ -1,8 +1,10 @@
 // $.noConflict();
+var players = [];
+
 jQuery(document).ready(function () {
     // initializers
-    $answerModal = $('#answer-modal');
-    $obscurer = $('#obscurer');
+    var $answerModal = $('#answer-modal');
+    var $obscurer = $('#obscurer');
 
     // triggers
     $('#available-games a').on('click', function (e) {
@@ -16,6 +18,16 @@ jQuery(document).ready(function () {
     $('#proceed').on('click', function (e) {
         e.preventDefault();
         proceed();
+    });
+    $('#add-new-player').on('click', function (e) {
+        e.preventDefault();
+        var name = $('#new-player-name').val();
+        var playerIndex = players.length;
+        addPlayer(name, playerIndex);
+
+        // Add player to DOM
+        var $newPlayer = $('<div id="player1" class="col" data-player="Player / Team 1"><h2>Player / Team 1</h2><div class="score">0</div><p><button class="btn btn-danger remove-player">Remove</button></p></div>');
+        $('#add-player').before($newPlayer);
     });
     $('.answer-tile').on('click', function () {
         $(this).toggleClass('answered');
@@ -36,6 +48,7 @@ jQuery(document).ready(function () {
 
 });
 
+/* Game Functions */
 function loadGame(gamePath) {
     console.log(`Loading game from ${gamePath}...`);
     resetGame();
@@ -46,7 +59,7 @@ function loadGame(gamePath) {
 
     $.getJSON('http://localhost:3000/games/' + encodedGame, function (data) {
         populateGameBoard(data);
-    }).fail(function(error) {
+    }).fail(function (error) {
         console.log("An error has occurred.");
     });
 }
@@ -101,4 +114,44 @@ function resetGame() {
 function proceed() {
     $('#single-jeopardy').addClass('hidden').removeClass('active');
     $('#double-jeopardy').removeClass('hidden').addClass('active');
+}
+
+/* Player Functions */
+// Player Class
+class Player {
+    constructor(name, playerIndex) {
+        this.name = name;
+        this.playerIndex = playerIndex;
+        this.score = 0;
+    }
+
+    getScore() {
+        return this.score;
+    }
+
+    setScore(newScore) {
+        this.score = newScore;
+    }
+
+    incrementScore(increment) {
+        this.score += increment;
+    }
+
+    getPlayerIndex() {
+        return this.playerIndex;
+    }
+
+    getName() {
+        return this.name;
+    }
+
+    setName(newName) {
+        this.name = newName;
+    }
+}
+
+function addPlayer(name, playerIndex) {
+    var player = new Player(name, playerIndex);
+    players.push(player);
+    console.log(`Added player ${name}.`);
 }
