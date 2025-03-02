@@ -1,11 +1,24 @@
-// 100% AI generated code. This has not been checked yet. Please review before using.
-
 // This script checks for duplicated questions in a Jeopardy game JSON file.
+// Usage: node dup-checker.js <file-name>
+// Example: node dup-checker.js wings-of-fire1.json
 
 const fs = require('fs');
 const path = require('path');
 
-const filePath = path.join(__dirname, '../content/full-games/tech1.json');
+var filePath = '';
+
+// Parse command-line arguments
+const args = process.argv.slice(2);
+if (args.length === 0) {
+    console.error('Please provide the path to the JSON file.  Usage: node dup-checker.js <file-name>');
+    process.exit(1);
+} else if (fs.existsSync(path.join(__dirname, '../content/full-games',args[0]))) {
+    filePath = path.join(__dirname, '../content/full-games',args[0]);
+} else {
+    console.error('The file does not exist.');
+    process.exit(1);
+}
+
 const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
 const questions = new Set();
