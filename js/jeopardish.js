@@ -61,7 +61,21 @@ jQuery(document).ready(function () {
         $answerModal.find('p').text($(this).data('answer'));
         $answerModal.find('#cur-tile-value').text($(this).data('value'));
         $answerModal.find('#cur-tile-question').data('question', $(this).data('question'));
-        $answerModal.find('#scoreboard-preview').text('People');
+        if (players.length > 0) {
+            var $scoreboardPreview = $answerModal.find('#scoreboard-preview');
+            players.forEach(function (player) {
+                var customizedTemplate = $('#scoreboard-preview-player-template').clone().html();
+                customizedTemplate = customizedTemplate.replace(/{{playerName}}/g, player.getName());
+                customizedTemplate = customizedTemplate.replace(/{{playerIndex}}/g, player.getPlayerIndex());
+                customizedTemplate = customizedTemplate.replace(/{{avatarNumber}}/g, player.getPlayerIndex() % 5);
+                customizedTemplate = customizedTemplate.replace(/{{score}}/g, player.getScore());
+                $('#scoreboard-preview-player-template').before(customizedTemplate);
+
+                var $playerScore = $('#player' + player.getPlayerIndex()).find('.player-score');
+                $playerScore.text(player.getScore());
+            });
+        }
+        
         $answerModal.addClass('active');
         $obscurer.addClass('active');
         console.log('Clicked ' + $(this).parent('div').index() + '-' + $(this).index());

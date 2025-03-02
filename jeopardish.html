@@ -274,7 +274,12 @@
       <div id="answer-modal">
         <div id="close-icon">X</div>
         <div id="cur-tile-value"></div>
-        <div id="scoreboard-preview"></div>
+        <div id="scoreboard-preview">
+          <template id="scoreboard-preview-player-template">
+            <img src="images/avatar{{avatarNumber}}.svg" class="player-avatar" />
+            <div class="score">{{score}}</div>
+          </template>
+        </div>
         <div id="cur-tile-question">?</div>
         <p id="cur-tile-answer">Answer</p>
       </div>
