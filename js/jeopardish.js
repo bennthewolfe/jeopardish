@@ -60,19 +60,32 @@ jQuery(document).ready(function () {
         $(this).toggleClass('answered');
         $answerModal.find('p').text($(this).data('answer'));
         $answerModal.find('#cur-tile-value').text($(this).data('value'));
+        $answerModal.find('#scoreboard-preview').data('value',$(this).data('value'));
         $answerModal.find('#cur-tile-question').data('question', $(this).data('question'));
         if (players.length > 0) {
             var $scoreboardPreview = $answerModal.find('#scoreboard-preview');
+            $scoreboardPreview.find('.player-preview').remove();
             players.forEach(function (player) {
                 var customizedTemplate = $('#scoreboard-preview-player-template').clone().html();
-                customizedTemplate = customizedTemplate.replace(/{{playerName}}/g, player.getName());
+                customizedTemplate = customizedTemplate.replace(/{{playerName}}/g, player.getName() ? player.getName()[0] : '');
                 customizedTemplate = customizedTemplate.replace(/{{playerIndex}}/g, player.getPlayerIndex());
                 customizedTemplate = customizedTemplate.replace(/{{avatarNumber}}/g, player.getPlayerIndex() % 5);
                 customizedTemplate = customizedTemplate.replace(/{{score}}/g, player.getScore());
                 $('#scoreboard-preview-player-template').before(customizedTemplate);
+            });
+            $('#scoreboard-preview .modify-score').on('click', function () {
+                var playerIndex = $(this).parent('.player-preview').data('player-index');
+                var value = $('#scoreboard-preview').data('value');
+                if ($(this).hasClass('decrease-score')) {
+                    value = value * -1;
+                }
+                var newScore = incrementScore(playerIndex, value);
+                $(this).siblings('.score').text(newScore);
+                $('#player' + playerIndex + ' .score').text(newScore);
 
-                var $playerScore = $('#player' + player.getPlayerIndex()).find('.player-score');
-                $playerScore.text(player.getScore());
+                console.log(`Increased player ${playerIndex}'s score by ${value}.`);
+
+                closeOverlay();
             });
         }
         
@@ -80,10 +93,7 @@ jQuery(document).ready(function () {
         $obscurer.addClass('active');
         console.log('Clicked ' + $(this).parent('div').index() + '-' + $(this).index());
     });
-    $('#close-icon, #obscurer').on('click', function () {
-        $answerModal.removeClass('active');
-        $obscurer.removeClass('active');
-    });
+    $('#close-icon, #obscurer').on('click', function () { closeOverlay(); });
     $('#cur-tile-question').on('click', function () {
         $answerModal.find('p').text($(this).data('question'));
     });
@@ -158,6 +168,11 @@ function proceed() {
     $('#double-jeopardy').removeClass('hidden').addClass('active');
 }
 
+function closeOverlay() {
+    $('#answer-modal').removeClass('active');
+    $('#obscurer').removeClass('active');
+}
+
 /* Player Functions */
 // Player Class
 class Player {
@@ -178,6 +193,7 @@ class Player {
 
     incrementScore(increment) {
         this.score += increment;
+        return this.score;
     }
 
     getPlayerIndex() {
@@ -209,6 +225,11 @@ function addPlayer(name, playerIndex) {
     console.log(players);
 
     return player;
+}
+
+function incrementScore(playerIndex, increment) {
+    var player = players.find(player => player.getPlayerIndex() === playerIndex);
+    return player.incrementScore(increment);
 }
 
 function getRandomColor() {

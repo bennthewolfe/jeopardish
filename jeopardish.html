@@ -276,8 +276,13 @@
         <div id="cur-tile-value"></div>
         <div id="scoreboard-preview">
           <template id="scoreboard-preview-player-template">
-            <img src="images/avatar{{avatarNumber}}.svg" class="player-avatar" />
-            <div class="score">{{score}}</div>
+            <div class="player-preview" data-player-index="{{playerIndex}}">
+              <img src="images/up-arrow.svg" class="increase-score modify-score" />
+              <img src="images/avatar{{avatarNumber}}.svg" class="player-avatar" />
+              <!-- <div class="player-name">{{playerName}}</div> -->
+              <div class="score">{{score}}</div>
+              <img src="images/down-arrow.svg" class="decrease-score modify-score" />
+            </div>
           </template>
         </div>
         <div id="cur-tile-question">?</div>
@@ -292,7 +297,8 @@
       </div>
     </div>
     <template id="player-template">
-      <div id="player{{playerIndex}}" class="col player" data-player="{{playerName}}" data-player-index="{{playerIndex}}">
+      <div id="player{{playerIndex}}" class="col player" data-player="{{playerName}}"
+        data-player-index="{{playerIndex}}">
         <h2><img src="images/avatar{{avatarNumber}}.svg" class="player-avatar" />{{playerName}}</h2>
         <div class="score">0</div>
         <p><button class="btn btn-danger remove-player">Remove</button></p>
