@@ -1,5 +1,9 @@
 # Learn Websockets from Scratch
 
+## Resources
+ - https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_client_applications
+ - https://medium.com/@techsuneel99/implementing-the-websocket-protocol-from-scratch-using-node-js-95d5553c0ea4
+
 Google Gemini explanation
 
 ```

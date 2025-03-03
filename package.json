@@ -2,6 +2,7 @@
   "name": "jeopardish",
   "version": "1.0.0",
   "description": "A jeopardy-like clone to play with my family.",
+  "type": "commonjs",
   "main": "server.js",
   "scripts": {
     "start": "node --watch server.js",
@@ -27,6 +28,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "helmet": "^8.0.0",
-    "npm": "^11.1.0"
+    "npm": "^11.1.0",
+    "openai": "^4.86.1"
   }
 }

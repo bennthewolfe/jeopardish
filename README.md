@@ -17,11 +17,14 @@ Repo : https://github.com/bennthewolfe/jeopardish
 - [ ] Download dependencies for offline play
 - [x] Use the JQuery data to store all this data on the cells instead of text in divs (done 2/27/25)
 - [ ] Use the search bar in nav to create a json game file on the fly (with chat gpt API)
+    - [ ] Build the validator
+    - [ ] Connect to LLM
 
 ## Links
 - https://commons.wikimedia.org/wiki/File:Jeopardy!_game_board_US.svg
 - https://www.dafont.com/geoparody.font (free for commercial use as of 2025/02/26)
 - https://typodermicfonts.com/geoparody/ (free on Adobe CC)
+- https://github.com/marketplace/models/azure-openai/gpt-4o/playground - Chat GPT 4.0 experiments
 
 ### Credits
 - &copy;2025 Attempted Murder Studios | http://www.attemptedmurderstudios.com
