@@ -60,7 +60,7 @@ jQuery(document).ready(function () {
         $(this).toggleClass('answered');
         $answerModal.find('p').text($(this).data('answer'));
         $answerModal.find('#cur-tile-value').text($(this).data('value'));
-        $answerModal.find('#scoreboard-preview').data('value',$(this).data('value'));
+        $answerModal.find('#scoreboard-preview').data('value', $(this).data('value'));
         $answerModal.find('#cur-tile-question').data('question', $(this).data('question'));
         if (players.length > 0) {
             var $scoreboardPreview = $answerModal.find('#scoreboard-preview');
@@ -88,7 +88,7 @@ jQuery(document).ready(function () {
                 closeOverlay();
             });
         }
-        
+
         $answerModal.addClass('active');
         $obscurer.addClass('active');
         console.log('Clicked ' + $(this).parent('div').index() + '-' + $(this).index());
@@ -239,4 +239,29 @@ function getRandomColor() {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
+}
+
+function testChatGPT(message=null) {
+    var messagesObj = {
+        "messages": [
+            { role: "system", content: "You are a helpful assistant." },
+            { role: "user", content: "Make me a unique haiku about loving my beautiful wife, the mother of my amazing daughter." }
+        ]
+    };
+
+    if (message) {
+        messagesObj.messages[1].content = message;
+    }
+
+    $.ajax({
+        type: "POST",
+        url: 'http://localhost:3000/chatgpt',
+        data: messagesObj,
+        success: function (response) {
+            console.log(response);
+        },
+        fail: function (error) {
+            console.log("An error has occurred.");
+        }
+    });
 }
