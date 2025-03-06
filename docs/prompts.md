@@ -1,0 +1,2 @@
+# Prompts
+1. Please fill out the included JSON template for a full jeopardy game including single jeopardy, double jeopardy, and final jeopardy  Please use Pixar trivia to populate the questions and answers.  Make sure that the questions use the question words in the porper jeopardy format.
