@@ -113,6 +113,8 @@ function loadGame(gamePath) {
         populateGameBoard(data);
     }).fail(function (error) {
         console.log("An error has occurred.");
+        console.log(error);
+        alert("Is your server running?  Try running 'npm start' in the server directory.");
     });
 }
 
@@ -241,23 +243,76 @@ function getRandomColor() {
     return color;
 }
 
+/* Chat GPT Functions */
+
+class ChatGPTMessage {
+    constructor(message, context=null) {
+        this.message = message;
+        if (context) {
+            this.context = context;
+        } else {
+            this.context = this.getDefaultContext();
+        }
+    }
+
+    getDefaultContext() {
+        return "You are a helpful assistant.";
+    }
+
+    setContext(context) {
+        this.context = context;
+    }
+
+    getContext() {
+        return this.context;
+    }
+
+    getMessage() {
+        return this.message;
+    }
+
+    setMessage(message) {
+        this.message = message;
+    }
+
+    getPlainObject() {
+        return {
+            "messages": [
+                { role: "system", content: this.context },
+                { role: "user", content: this.message }
+            ]
+        };
+    }
+
+    get jsonString() {
+        return JSON.stringify(this.getPlainObject());
+    }
+
+    toString() {
+        return this.jsonString;
+    }
+
+}
 function testChatGPT(message=null) {
-    var messagesObj = {
-        "messages": [
-            { role: "system", content: "You are a helpful assistant." },
-            { role: "user", content: "Make me a unique haiku about loving my beautiful wife, the mother of my amazing daughter." }
-        ]
-    };
+    const chatGPTMessageObj = new ChatGPTMessage(message);
 
     if (message) {
-        messagesObj.messages[1].content = message;
+        if ( typeof message === 'string' ) {
+            // TODO: Also check for json string object
+            chatGPTMessageObj.setMessage(message);
+        } if ( typeof message === 'object' ) {
+            chatGPTMessageObj= message;
+        }
+    } else {
+        return 'This message was not sent to ChatGPT, as no message was provided.';
     }
 
     $.ajax({
         type: "POST",
         url: 'http://localhost:3000/chatgpt',
-        data: messagesObj,
+        data: ChatGPTMessage.toString(),
         success: function (response) {
+            console.log('Successful response from ChatGPT.');
             console.log(response);
         },
         fail: function (error) {

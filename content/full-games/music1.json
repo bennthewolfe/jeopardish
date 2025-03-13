@@ -1,0 +1,300 @@
+{
+    "metadata": {
+        "title": "Music Trivia",
+        "description": "A full game of Jeopardy with music-themed questions.",
+        "author": "GitHub Copilot",
+        "date": "2025-01-01",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "Classic Rock",
+                "200": {
+                    "answer": "He was the flamboyant lead singer of Queen.",
+                    "question": "Who is Freddie Mercury?"
+                },
+                "400": {
+                    "answer": "This drummer kept the beat for The Beatles.",
+                    "question": "Who is Ringo Starr?"
+                },
+                "600": {
+                    "answer": "Known as the 'King of Rock and Roll'.",
+                    "question": "Who is Elvis Presley?"
+                },
+                "800": {
+                    "answer": "Led Zeppelin's most famous song.",
+                    "question": "What is 'Stairway to Heaven'?"
+                },
+                "1000": {
+                    "answer": "The legendary guitarist for The Rolling Stones.",
+                    "question": "Who is Keith Richards?"
+                }
+            },
+            {
+                "title": "Pop Hits",
+                "200": {
+                    "answer": "The King of Pop who sang 'Thriller'.",
+                    "question": "Who is Michael Jackson?"
+                },
+                "400": {
+                    "answer": "She sang 'Like a Virgin' and became a pop icon.",
+                    "question": "Who is Madonna?"
+                },
+                "600": {
+                    "answer": "This artist's hit song is 'Shape of You'.",
+                    "question": "Who is Ed Sheeran?"
+                },
+                "800": {
+                    "answer": "Taylor Swift's 2014 album named after a year.",
+                    "question": "What is '1989'?"
+                },
+                "1000": {
+                    "answer": "She rolled in the deep with this hit song.",
+                    "question": "Who is Adele?"
+                }
+            },
+            {
+                "title": "Potent Potables",
+                "200": {
+                    "answer": "A cocktail made with rum, lime juice, and sugar.",
+                    "question": "What is a Daiquiri?"
+                },
+                "400": {
+                    "answer": "The main ingredient in a Bloody Mary.",
+                    "question": "What is tomato juice?"
+                },
+                "600": {
+                    "answer": "A Mexican beer often served with a lime wedge.",
+                    "question": "What is Corona?"
+                },
+                "800": {
+                    "answer": "An Italian sparkling wine.",
+                    "question": "What is Prosecco?"
+                },
+                "1000": {
+                    "answer": "A whiskey-based cocktail with bitters and sugar.",
+                    "question": "What is an Old Fashioned?"
+                }
+            },
+            {
+                "title": "Hip Hop",
+                "200": {
+                    "answer": "The artist behind the album 'The Marshall Mathers LP'.",
+                    "question": "Who is Eminem?"
+                },
+                "400": {
+                    "answer": "This rapper is known for the song 'Hotline Bling'.",
+                    "question": "Who is Drake?"
+                },
+                "600": {
+                    "answer": "He made 'Juicy' a hip hop classic.",
+                    "question": "Who is The Notorious B.I.G.?"
+                },
+                "800": {
+                    "answer": "Kendrick Lamar's 2017 album.",
+                    "question": "What is 'DAMN.'?"
+                },
+                "1000": {
+                    "answer": "The rapper known for the song 'Sicko Mode'.",
+                    "question": "Who is Travis Scott?"
+                }
+            },
+            {
+                "title": "Before and After",
+                "200": {
+                    "answer": "A famous Beatles song combined with a TV show about a chemistry teacher.",
+                    "question": "What is 'Hey Jude Breaking Bad'?"
+                },
+                "400": {
+                    "answer": "A Queen song mixed with a Disney movie about a lion.",
+                    "question": "What is 'Bohemian Rhapsody The Lion King'?"
+                },
+                "600": {
+                    "answer": "A Michael Jackson song and a TV show about friends.",
+                    "question": "What is 'Thriller Friends'?"
+                },
+                "800": {
+                    "answer": "A Taylor Swift song and a TV show about dragons.",
+                    "question": "What is 'Shake It Off Game of Thrones'?"
+                },
+                "1000": {
+                    "answer": "An Adele song and a TV show about a chemistry teacher.",
+                    "question": "What is 'Rolling in the Deep Breaking Bad'?"
+                }
+            },
+            {
+                "title": "Classical Music",
+                "200": {
+                    "answer": "The composer of the 'Fifth Symphony'.",
+                    "question": "Who is Ludwig van Beethoven?"
+                },
+                "400": {
+                    "answer": "He composed 'The Four Seasons'.",
+                    "question": "Who is Antonio Vivaldi?"
+                },
+                "600": {
+                    "answer": "The composer of 'The Magic Flute'.",
+                    "question": "Who is Wolfgang Amadeus Mozart?"
+                },
+                "800": {
+                    "answer": "Bach's famous collection of keyboard music.",
+                    "question": "What is 'The Well-Tempered Clavier'?"
+                },
+                "1000": {
+                    "answer": "The composer of 'Rhapsody in Blue'.",
+                    "question": "Who is George Gershwin?"
+                }
+            }
+        ]
+    },
+    "double-jeopardy": {
+        "categories": [
+            {
+                "title": "Jazz Legends",
+                "400": {
+                    "answer": "The trumpeter known for 'What a Wonderful World'.",
+                    "question": "Who is Louis Armstrong?"
+                },
+                "800": {
+                    "answer": "The saxophonist known for 'Giant Steps'.",
+                    "question": "Who is John Coltrane?"
+                },
+                "1200": {
+                    "answer": "The pianist known for 'Take Five'.",
+                    "question": "Who is Dave Brubeck?"
+                },
+                "1600": {
+                    "answer": "Miles Davis' famous album.",
+                    "question": "What is 'Kind of Blue'?"
+                },
+                "2000": {
+                    "answer": "The singer known for 'Strange Fruit'.",
+                    "question": "Who is Billie Holiday?"
+                }
+            },
+            {
+                "title": "Country Classics",
+                "400": {
+                    "answer": "The artist known for 'Jolene'.",
+                    "question": "Who is Dolly Parton?"
+                },
+                "800": {
+                    "answer": "The singer known for 'Ring of Fire'.",
+                    "question": "Who is Johnny Cash?"
+                },
+                "1200": {
+                    "answer": "The artist behind the song 'Friends in Low Places'.",
+                    "question": "Who is Garth Brooks?"
+                },
+                "1600": {
+                    "answer": "Willie Nelson's famous album.",
+                    "question": "What is 'Red Headed Stranger'?"
+                },
+                "2000": {
+                    "answer": "The singer known for 'Crazy'.",
+                    "question": "Who is Patsy Cline?"
+                }
+            },
+            {
+                "title": "Potent Potables",
+                "400": {
+                    "answer": "A cocktail made with gin, lemon juice, and sugar.",
+                    "question": "What is a Tom Collins?"
+                },
+                "800": {
+                    "answer": "The main ingredient in a Margarita.",
+                    "question": "What is tequila?"
+                },
+                "1200": {
+                    "answer": "A French sparkling wine.",
+                    "question": "What is Champagne?"
+                },
+                "1600": {
+                    "answer": "A cocktail made with vodka, coffee liqueur, and cream.",
+                    "question": "What is a White Russian?"
+                },
+                "2000": {
+                    "answer": "A cocktail made with bourbon, sweet vermouth, and bitters.",
+                    "question": "What is a Manhattan?"
+                }
+            },
+            {
+                "title": "R&B and Soul",
+                "400": {
+                    "answer": "The artist known for 'Respect'.",
+                    "question": "Who is Aretha Franklin?"
+                },
+                "800": {
+                    "answer": "The singer known for 'Superstition'.",
+                    "question": "Who is Stevie Wonder?"
+                },
+                "1200": {
+                    "answer": "The artist behind the song 'Let's Stay Together'.",
+                    "question": "Who is Al Green?"
+                },
+                "1600": {
+                    "answer": "Marvin Gaye's famous album.",
+                    "question": "What is 'What's Going On'?"
+                },
+                "2000": {
+                    "answer": "The singer known for 'I Will Always Love You'.",
+                    "question": "Who is Whitney Houston?"
+                }
+            },
+            {
+                "title": "Before and After",
+                "400": {
+                    "answer": "A famous Elvis song and a TV show about a chemistry teacher.",
+                    "question": "What is 'Hound Dog Breaking Bad'?"
+                },
+                "800": {
+                    "answer": "A Beatles song and a Disney movie about a lion.",
+                    "question": "What is 'Yellow Submarine The Lion King'?"
+                },
+                "1200": {
+                    "answer": "A Madonna song and a TV show about friends.",
+                    "question": "What is 'Like a Virgin Friends'?"
+                },
+                "1600": {
+                    "answer": "A Beyoncé song and a TV show about dragons.",
+                    "question": "What is 'Single Ladies Game of Thrones'?"
+                },
+                "2000": {
+                    "answer": "A Prince song and a TV show about a chemistry teacher.",
+                    "question": "What is 'Purple Rain Breaking Bad'?"
+                }
+            },
+            {
+                "title": "Opera",
+                "400": {
+                    "answer": "The composer of 'La Traviata'.",
+                    "question": "Who is Giuseppe Verdi?"
+                },
+                "800": {
+                    "answer": "The composer of 'The Barber of Seville'.",
+                    "question": "Who is Gioachino Rossini?"
+                },
+                "1200": {
+                    "answer": "The composer of 'Carmen'.",
+                    "question": "Who is Georges Bizet?"
+                },
+                "1600": {
+                    "answer": "Richard Wagner's famous opera cycle.",
+                    "question": "What is 'The Ring Cycle'?"
+                },
+                "2000": {
+                    "answer": "The composer of 'Madama Butterfly'.",
+                    "question": "Who is Giacomo Puccini?"
+                }
+            }
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "Music History",
+            "answer": "The composer known as the 'Father of the Symphony'.",
+            "question": "Who is Joseph Haydn?"
+        }
+    }
+}

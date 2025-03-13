@@ -12,138 +12,138 @@
                 "title": "Toy Story",
                 "200": {
                     "question": "Who is Woody?",
-                    "answer": "The cowboy doll"
+                    "answer": "The cowboy doll who leads the toys"
                 },
                 "400": {
                     "question": "Who is Buzz Lightyear?",
-                    "answer": "The space ranger"
+                    "answer": "The space ranger with a laser"
                 },
                 "600": {
                     "question": "Who is Andy?",
-                    "answer": "The boy who owns the toys"
+                    "answer": "The boy who loves his toys"
                 },
                 "800": {
                     "question": "What is Pizza Planet?",
-                    "answer": "The restaurant where Woody and Buzz get lost"
+                    "answer": "The intergalactic restaurant"
                 },
                 "1000": {
                     "question": "Who is Sid?",
-                    "answer": "The neighbor who destroys toys"
+                    "answer": "The toy-destroying neighbor"
                 }
             },
             {
                 "title": "Finding Nemo",
                 "200": {
                     "question": "Who is Marlin?",
-                    "answer": "Nemo's father"
+                    "answer": "The overprotective clownfish"
                 },
                 "400": {
                     "question": "Who is Dory?",
-                    "answer": "The forgetful blue fish"
+                    "answer": "The forgetful blue tang"
                 },
                 "600": {
                     "question": "What is Sydney?",
-                    "answer": "The city where Nemo is taken"
+                    "answer": "The city with the harbor"
                 },
                 "800": {
                     "question": "What is P. Sherman, 42 Wallaby Way?",
-                    "answer": "The address Dory remembers"
+                    "answer": "The address etched in memory"
                 },
                 "1000": {
                     "question": "What is the Great Barrier Reef?",
-                    "answer": "Nemo's home"
+                    "answer": "The vibrant underwater home"
                 }
             },
             {
                 "title": "Monsters, Inc.",
                 "200": {
                     "question": "Who is Mike Wazowski?",
-                    "answer": "The one-eyed green monster"
+                    "answer": "The one-eyed green comedian"
                 },
                 "400": {
                     "question": "Who is Sulley?",
-                    "answer": "The top scarer"
+                    "answer": "The top scarer with a heart"
                 },
                 "600": {
                     "question": "Who is Boo?",
-                    "answer": "The little girl in the monster world"
+                    "answer": "The fearless little girl"
                 },
                 "800": {
                     "question": "Who is Randall?",
-                    "answer": "The chameleon-like monster"
+                    "answer": "The sneaky chameleon-like monster"
                 },
                 "1000": {
                     "question": "What is Monstropolis?",
-                    "answer": "The city of monsters"
+                    "answer": "The city powered by screams"
                 }
             },
             {
                 "title": "The Incredibles",
                 "200": {
                     "question": "Who is Mr. Incredible?",
-                    "answer": "The superhero father"
+                    "answer": "The superhero with immense strength"
                 },
                 "400": {
                     "question": "Who is Elastigirl?",
-                    "answer": "The superhero mother"
+                    "answer": "The flexible superhero mom"
                 },
                 "600": {
                     "question": "Who is Dash?",
-                    "answer": "The super-fast son"
+                    "answer": "The lightning-fast son"
                 },
                 "800": {
                     "question": "Who is Violet?",
-                    "answer": "The daughter with invisibility powers"
+                    "answer": "The daughter who can turn invisible"
                 },
                 "1000": {
                     "question": "Who is Syndrome?",
-                    "answer": "The villain"
+                    "answer": "The villain with a grudge"
                 }
             },
             {
                 "title": "Cars",
                 "200": {
                     "question": "Who is Lightning McQueen?",
-                    "answer": "The main character and race car"
+                    "answer": "The race car with a need for speed"
                 },
                 "400": {
                     "question": "What is Radiator Springs?",
-                    "answer": "The town where Lightning McQueen gets stranded"
+                    "answer": "The quaint town on Route 66"
                 },
                 "600": {
                     "question": "Who is Mater?",
-                    "answer": "The tow truck"
+                    "answer": "The rusty but trusty tow truck"
                 },
                 "800": {
                     "question": "Who is Doc Hudson?",
-                    "answer": "The retired race car"
+                    "answer": "The wise retired race car"
                 },
                 "1000": {
                     "question": "What is Dinoco?",
-                    "answer": "The sponsor Lightning McQueen wants"
+                    "answer": "The coveted sponsor"
                 }
             },
             {
                 "title": "Up",
                 "200": {
                     "question": "Who is Carl Fredricksen?",
-                    "answer": "The elderly man with balloons"
+                    "answer": "The balloon-toting adventurer"
                 },
                 "400": {
                     "question": "Who is Russell?",
-                    "answer": "The young Wilderness Explorer"
+                    "answer": "The eager Wilderness Explorer"
                 },
                 "600": {
                     "question": "What is Paradise Falls?",
-                    "answer": "The destination Carl wants to reach"
+                    "answer": "The dream destination"
                 },
                 "800": {
                     "question": "Who is Kevin?",
-                    "answer": "The giant bird"
+                    "answer": "The colorful giant bird"
                 },
                 "1000": {
                     "question": "Who is Dug?",
-                    "answer": "The talking dog"
+                    "answer": "The talking dog with a collar"
                 }
             }
         ]
@@ -154,65 +154,65 @@
                 "title": "Toy Story",
                 "400": {
                     "question": "Who is Jessie?",
-                    "answer": "The cowgirl doll"
+                    "answer": "The yodeling cowgirl"
                 },
                 "800": {
                     "question": "What is Al's Toy Barn?",
-                    "answer": "The toy store"
+                    "answer": "The toy store with a chicken mascot"
                 },
                 "1200": {
                     "question": "Who is Emperor Zurg?",
-                    "answer": "Buzz Lightyear's arch-nemesis"
+                    "answer": "The evil ruler of the galaxy"
                 },
                 "1600": {
                     "question": "Who is Bonnie?",
-                    "answer": "The girl who owns the toys in Toy Story 3"
+                    "answer": "The new owner of the toys"
                 },
                 "2000": {
                     "question": "Who is Lotso?",
-                    "answer": "The villainous teddy bear"
+                    "answer": "The strawberry-scented bear"
                 }
             },
             {
                 "title": "Finding Nemo",
                 "400": {
                     "question": "Who is Bruce?",
-                    "answer": "The great white shark"
+                    "answer": "The shark with a vegetarian streak"
                 },
                 "800": {
                     "question": "Who is Crush?",
-                    "answer": "The sea turtle"
+                    "answer": "The laid-back sea turtle"
                 },
                 "1200": {
                     "question": "Who is Gill?",
-                    "answer": "The fish in the dentist's tank"
+                    "answer": "The fish with escape plans"
                 },
                 "1600": {
                     "question": "Who is Nigel?",
-                    "answer": "The pelican"
+                    "answer": "The helpful pelican"
                 },
                 "2000": {
                     "question": "Who is Darla?",
-                    "answer": "The dentist's niece"
+                    "answer": "The fish-killing niece"
                 }
             },
             {
                 "title": "Monsters, Inc.",
                 "400": {
                     "question": "Who is Celia?",
-                    "answer": "Mike Wazowski's girlfriend"
+                    "answer": "The receptionist with snakes for hair"
                 },
                 "800": {
                     "question": "Who is Waternoose?",
-                    "answer": "The CEO of Monsters, Inc."
+                    "answer": "The CEO with multiple legs"
                 },
                 "1200": {
                     "question": "What is 2319?",
-                    "answer": "The code for a human contamination"
+                    "answer": "The code for human contamination"
                 },
                 "1600": {
                     "question": "What is laugh energy?",
-                    "answer": "The new energy source"
+                    "answer": "The new power source"
                 },
                 "2000": {
                     "question": "Who is Roz?",
@@ -223,15 +223,15 @@
                 "title": "The Incredibles",
                 "400": {
                     "question": "Who is Edna Mode?",
-                    "answer": "The fashion designer"
+                    "answer": "The fashion designer with no capes"
                 },
                 "800": {
                     "question": "Who is Frozone?",
-                    "answer": "Mr. Incredible's best friend"
+                    "answer": "The superhero with ice powers"
                 },
                 "1200": {
                     "question": "Who is Jack-Jack?",
-                    "answer": "The baby"
+                    "answer": "The baby with multiple powers"
                 },
                 "1600": {
                     "question": "What is 'No capes'?",
@@ -239,53 +239,53 @@
                 },
                 "2000": {
                     "question": "What is the Omnidroid?",
-                    "answer": "The robot used by Syndrome"
+                    "answer": "The robot designed to destroy"
                 }
             },
             {
                 "title": "Cars",
                 "400": {
                     "question": "Who is Sally?",
-                    "answer": "The Porsche"
+                    "answer": "The Porsche with a heart of gold"
                 },
                 "800": {
                     "question": "Who is Luigi?",
-                    "answer": "The Fiat 500"
+                    "answer": "The tire shop owner"
                 },
                 "1200": {
                     "question": "Who is Chick Hicks?",
-                    "answer": "Lightning McQueen's main rival"
+                    "answer": "The rival race car"
                 },
                 "1600": {
                     "question": "What is the Piston Cup?",
-                    "answer": "The championship"
+                    "answer": "The championship trophy"
                 },
                 "2000": {
                     "question": "Who is Fillmore?",
-                    "answer": "The Volkswagen bus"
+                    "answer": "The hippie Volkswagen bus"
                 }
             },
             {
                 "title": "Up",
                 "400": {
                     "question": "Who is Ellie?",
-                    "answer": "Carl's wife"
+                    "answer": "Carl's adventurous wife"
                 },
                 "800": {
                     "question": "Who is Charles Muntz?",
-                    "answer": "The explorer Carl idolizes"
+                    "answer": "The explorer turned villain"
                 },
                 "1200": {
                     "question": "What is the Spirit of Adventure?",
-                    "answer": "Charles Muntz's airship"
+                    "answer": "The dirigible airship"
                 },
                 "1600": {
                     "question": "What is the Adventure Book?",
-                    "answer": "The book Carl and Ellie use"
+                    "answer": "The scrapbook of dreams"
                 },
                 "2000": {
                     "question": "What is South America?",
-                    "answer": "The continent Carl wants to travel to"
+                    "answer": "The continent of Carl's dreams"
                 }
             }
         ]
@@ -294,7 +294,7 @@
         "category": {
             "title": "Pixar",
             "question": "What is Luxo Jr.?",
-            "answer": "The Pixar lamp mascot"
+            "answer": "The iconic Pixar lamp mascot"
         }
     }
 }
