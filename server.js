@@ -27,6 +27,20 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/games', (req, res) => {
+    var games = fs.readdirSync(path.join(__dirname, 'content', 'full-games'));
+    games = games.filter(game => game.endsWith('.json') && game !== 'template.json');
+
+    let gamesMetadata = [];
+    games.forEach(game => {
+        let gameData = fs.readFileSync(path.join(__dirname, 'content', 'full-games', game));
+        let gameJson = JSON.parse(gameData).metadata;
+        gameJson.file = game;
+        gamesMetadata.push(gameJson);
+    });
+    res.json(gamesMetadata);
+});
+
 app.get('/games/:gameFile', (req, res) => {
     const gameFile = decodeURIComponent(req.params.gameFile);
 
