@@ -7,19 +7,54 @@ jQuery(document).ready(function () {
     var $obscurer = $('#obscurer');
 
     // triggers
-    $('#available-games a').on('click', function (e) {
+    // nav triggers
+    $('#available-games a').on('click', loadGameClickHandler);
+    $('#reset-game').on('click', resetGameClickHandler);
+    $('#proceed').on('click', proceedClickHandler);
+    // gameboard triggers
+    $('.answer-tile').on('click', answerTileClickHandler);
+    // player triggers
+    $('#add-new-player').on('click', addPlayerClickHandler);
+    // overlay triggers
+    $('#close-icon, #obscurer').on('click', function () { closeOverlay(); });
+    $('#cur-tile-question').on('click', function () {
+        $answerModal.find('p').text($(this).data('question'));
+    });
+
+    // Load games in nav bar
+    $.getJSON('http://localhost:3000/games', function (data) {
+        let $gamesDropdown = $('#available-games');
+        $gamesDropdown.empty();
+        $.each(data, function (index, value) {
+            var gameName = value.title;
+            var gameFile = value.file;
+            var gameLink = $('<a>').addClass('dropdown-item').attr('href', 'content/full-games/' + gameFile).text(gameName);
+            gameLink = $('<li>').append(gameLink);
+            $gamesDropdown.append(gameLink);
+        });
+        $gamesDropdown.append('<li><hr class="dropdown-divider"></li>');
+        $gamesDropdown.append('<li><a class="dropdown-item" href="random">Random</a></li>');
+        // reintroduce click handler
+        $('#available-games a').on('click', loadGameClickHandler);
+    }).fail(function (error) {
+        console.log("Unable to connect to the server to get the list of games.");
+        console.log(error);
+    });
+
+    /* Click Handlers */
+    function loadGameClickHandler(e) {
         e.preventDefault();
         loadGame($(this).attr('href'));
-    });
-    $('#reset-game').on('click', function (e) {
+    }
+    function resetGameClickHandler(e) {
         e.preventDefault();
         resetGame();
-    });
-    $('#proceed').on('click', function (e) {
+    }
+    function proceedClickHandler(e) {
         e.preventDefault();
         proceed();
-    });
-    $('#add-new-player').on('click', function (e) {
+    }
+    function addPlayerClickHandler(e) {
         e.preventDefault();
         var name = $('#new-player-name').val();
         var playerIndex = players.length;
@@ -55,8 +90,8 @@ jQuery(document).ready(function () {
 
         // Clear input
         $('#new-player-name').val('');
-    });
-    $('.answer-tile').on('click', function () {
+    }
+    function answerTileClickHandler(e) {
         $(this).toggleClass('answered');
         $answerModal.find('p').text($(this).data('answer'));
         $answerModal.find('#cur-tile-value').text($(this).data('value'));
@@ -92,11 +127,7 @@ jQuery(document).ready(function () {
         $answerModal.addClass('active');
         $obscurer.addClass('active');
         console.log('Clicked ' + $(this).parent('div').index() + '-' + $(this).index());
-    });
-    $('#close-icon, #obscurer').on('click', function () { closeOverlay(); });
-    $('#cur-tile-question').on('click', function () {
-        $answerModal.find('p').text($(this).data('question'));
-    });
+    }
 
 });
 
@@ -246,7 +277,7 @@ function getRandomColor() {
 /* Chat GPT Functions */
 
 class ChatGPTMessage {
-    constructor(message, context=null) {
+    constructor(message, context = null) {
         this.message = message;
         if (context) {
             this.context = context;
@@ -293,15 +324,15 @@ class ChatGPTMessage {
     }
 
 }
-function testChatGPT(message=null) {
+function testChatGPT(message = null) {
     const chatGPTMessageObj = new ChatGPTMessage(message);
 
     if (message) {
-        if ( typeof message === 'string' ) {
+        if (typeof message === 'string') {
             // TODO: Also check for json string object
             chatGPTMessageObj.setMessage(message);
-        } if ( typeof message === 'object' ) {
-            chatGPTMessageObj= message;
+        } if (typeof message === 'object') {
+            chatGPTMessageObj = message;
         }
     } else {
         return 'This message was not sent to ChatGPT, as no message was provided.';
