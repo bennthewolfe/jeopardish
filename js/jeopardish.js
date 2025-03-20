@@ -324,6 +324,7 @@ class ChatGPTMessage {
     }
 
 }
+
 function testChatGPT(message = null) {
     const chatGPTMessageObj = new ChatGPTMessage(message);
 
@@ -341,10 +342,10 @@ function testChatGPT(message = null) {
     $.ajax({
         type: "POST",
         url: 'http://localhost:3000/chatgpt',
-        data: ChatGPTMessage.toString(),
+        data: chatGPTMessageObj.getPlainObject(),
         success: function (response) {
             console.log('Successful response from ChatGPT.');
-            console.log(response);
+            console.log(JSON.parse(response));
         },
         fail: function (error) {
             console.log("An error has occurred.");
