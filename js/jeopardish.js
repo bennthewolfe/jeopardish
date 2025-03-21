@@ -36,6 +36,7 @@ jQuery(document).ready(function () {
         $gamesDropdown.append('<li><a class="dropdown-item" href="random">Random</a></li>');
         // reintroduce click handler
         $('#available-games a').on('click', loadGameClickHandler);
+        console.log('Loaded games into the nav bar.');
     }).fail(function (error) {
         console.log("Unable to connect to the server to get the list of games.");
         console.log(error);
