@@ -31,6 +31,28 @@ app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
 // Helmet for security headers
 app.use(helmet());
 
+/**
+ * @openapi
+ * /games:
+ *   get:
+ *     summary: Retrieve a list of available games.
+ *     responses:
+ *       200:
+ *         description: A list of game metadata.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *                 properties:
+ *                   title:
+ *                     type: string
+ *                   description:
+ *                     type: string
+ *                   file:
+ *                     type: string
+ */
 app.get('/games', (req, res) => {
     var games = fs.readdirSync(path.join(__dirname, 'content', 'full-games'));
     games = games.filter(game => game.endsWith('.json') && game !== 'template.json');
@@ -45,6 +67,28 @@ app.get('/games', (req, res) => {
     res.json(gamesMetadata);
 });
 
+/**
+ * @openapi
+ * /games/{gameFile}:
+ *   get:
+ *     summary: Retrieve a specific game file or a random game.
+ *     parameters:
+ *       - in: path
+ *         name: gameFile
+ *         required: true
+ *         schema:
+ *           type: string
+ *         description: The name of the game file or 'random' for a random game.
+ *     responses:
+ *       200:
+ *         description: The requested game file.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *       404:
+ *         description: Game file not found.
+ */
 app.get('/games/:gameFile', (req, res) => {
     const gameFile = decodeURIComponent(req.params.gameFile);
 
@@ -58,6 +102,38 @@ app.get('/games/:gameFile', (req, res) => {
     }
 });
 
+/**
+ * @openapi
+ * /chatgpt:
+ *   post:
+ *     summary: Interact with the ChatGPT model.
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               messages:
+ *                 type: array
+ *                 items:
+ *                   type: object
+ *                   properties:
+ *                     role:
+ *                       type: string
+ *                       enum: [system, user]
+ *                     content:
+ *                       type: string
+ *     responses:
+ *       200:
+ *         description: The ChatGPT response.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *       400:
+ *         description: Invalid input.
+ */
 app.post('/chatgpt', async (req, res) => {
     const client = new OpenAI({ baseURL: openaiEndpoint, apiKey: openaiToken });
 
