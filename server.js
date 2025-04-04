@@ -5,6 +5,8 @@ const fs = require('fs');
 const helmet = require('helmet');
 const OpenAI = require('openai');
 const dotenv = require('dotenv');
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpecs = require('./swagger-config');
 
 dotenv.config({ path: path.resolve(__dirname, './.env') });
 
@@ -24,8 +26,10 @@ app.use(express.urlencoded({
     extended: true
 }));
 app.use(express.json());
-
 app.use(express.static(path.join(__dirname, 'public')));
+app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
+// Helmet for security headers
+app.use(helmet());
 
 app.get('/games', (req, res) => {
     var games = fs.readdirSync(path.join(__dirname, 'content', 'full-games'));
