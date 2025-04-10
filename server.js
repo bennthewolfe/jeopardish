@@ -27,7 +27,7 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
 // Helmet for security headers
 app.use(helmet());
 
