@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "560a4ece-7c9f-474b-a030-0151fc61faca",
+		"name": "Jeopardish Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "992700"
+	},
+	"item": [
+		{
+			"name": "ChatGPT",
+			"item": [
+				{
+					"name": "chatgpt",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    [\r\n        {\r\n            \"role\": \"system\",\r\n            \"content\": \"You are a helpful assistant.\"\r\n        },\r\n        {\r\n            \"role\": \"user\",\r\n            \"content\": \"What is the capital of France?\"\r\n        }\r\n    ]\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseUrl}}chatgpt",
+							"host": [
+								"{{baseUrl}}chatgpt"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Games",
+			"item": [
+				{
+					"name": "Get all games",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}games/",
+							"host": [
+								"{{baseUrl}}games"
+							],
+							"path": [
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get a random game",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}games/random",
+							"host": [
+								"{{baseUrl}}games"
+							],
+							"path": [
+								"random"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
