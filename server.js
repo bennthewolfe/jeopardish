@@ -27,7 +27,7 @@ app.use(express.urlencoded({
 }));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
-app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
 // Helmet for security headers
 app.use(helmet());
 
@@ -35,6 +35,8 @@ app.use(helmet());
  * @openapi
  * /games:
  *   get:
+ *     tags:
+ *       - Games
  *     summary: Retrieve a list of available games.
  *     responses:
  *       200:
@@ -69,16 +71,50 @@ app.get('/games', (req, res) => {
 
 /**
  * @openapi
+ * /games/random:
+ *   get:
+ *     tags:
+ *       - Games
+ *     summary: Retrieve a random game file.
+ *     responses:
+ *       200:
+ *         description: A random game file.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 metadata:
+ *                   type: object
+ *                   properties:
+ *                     title:
+ *                       type: string
+ *                     description:
+ *                       type: string
+ *                     file:
+ *                       type: string
+ */
+app.get('/games/random', (req, res) => {
+    var games = fs.readdirSync(path.join(__dirname, 'content', 'full-games'));
+    games = games.filter(game => game.endsWith('.json') && game !== 'template.json');
+    const randomGame = games[Math.floor(Math.random() * games.length)];
+    res.sendFile(path.join(__dirname, 'content', 'full-games', randomGame));
+});
+
+/**
+ * @openapi
  * /games/{gameFile}:
  *   get:
- *     summary: Retrieve a specific game file or a random game.
+ *     tags:
+ *       - Games
+ *     summary: Retrieve a specific game file.
  *     parameters:
  *       - in: path
  *         name: gameFile
  *         required: true
  *         schema:
  *           type: string
- *         description: The name of the game file or 'random' for a random game.
+ *         description: The name of the game file.
  *     responses:
  *       200:
  *         description: The requested game file.
@@ -86,19 +122,26 @@ app.get('/games', (req, res) => {
  *           application/json:
  *             schema:
  *               type: object
+ *               properties:
+ *                 metadata:
+ *                   type: object
+ *                   properties:
+ *                     title:
+ *                       type: string
+ *                     description:
+ *                       type: string
+ *                     file:
+ *                       type: string
  *       404:
  *         description: Game file not found.
  */
 app.get('/games/:gameFile', (req, res) => {
     const gameFile = decodeURIComponent(req.params.gameFile);
 
-    if (gameFile === 'random') {
-        var games = fs.readdirSync(path.join(__dirname, 'content', 'full-games'));
-        games = games.filter(game => game.endsWith('.json') && game !== 'template.json');
-        const randomGame = games[Math.floor(Math.random() * games.length)];
-        res.sendFile(path.join(__dirname, 'content', 'full-games', randomGame));
-    } else if (fs.existsSync(path.join(__dirname, 'content', 'full-games', gameFile))) {
+    if (fs.existsSync(path.join(__dirname, 'content', 'full-games', gameFile))) {
         res.sendFile(path.join(__dirname, 'content', 'full-games', gameFile));
+    } else {
+        res.status(404).json({ error: 'Game file not found.' });
     }
 });
 
@@ -106,6 +149,8 @@ app.get('/games/:gameFile', (req, res) => {
  * @openapi
  * /chatgpt:
  *   post:
+ *     tags:
+ *       - ChatGPT
  *     summary: Interact with the ChatGPT model.
  *     requestBody:
  *       required: true
@@ -131,6 +176,27 @@ app.get('/games/:gameFile', (req, res) => {
  *           application/json:
  *             schema:
  *               type: object
+ *               properties:
+ *                 id:
+ *                   type: string
+ *                 object:
+ *                   type: string
+ *                 created:
+ *                   type: integer
+ *                 model:
+ *                   type: string
+ *                 choices:
+ *                   type: array
+ *                   items:
+ *                     type: object
+ *                     properties:
+ *                       message:
+ *                         type: object
+ *                         properties:
+ *                           role:
+ *                             type: string
+ *                           content:
+ *                             type: string
  *       400:
  *         description: Invalid input.
  */
@@ -173,6 +239,39 @@ app.post('/chatgpt', async (req, res) => {
 
     res.status(200).json(JSON.stringify(response));
     return;
+});
+
+/**
+ * @openapi
+ * /openapi.json:
+ *   get:
+ *     tags:
+ *       - OpenAPI
+ *     summary: Retrieve the OpenAPI specification.
+ *     responses:
+ *       200:
+ *         description: The OpenAPI specification in JSON format.
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 openapi:
+ *                   type: string
+ *                 info:
+ *                   type: object
+ *                   properties:
+ *                     title:
+ *                       type: string
+ *                     version:
+ *                       type: string
+ *                 paths:
+ *                   type: object
+ */
+// Serve the OpenAPI specification as JSON
+app.get('/openapi.json', (req, res) => {
+    res.setHeader('Content-Type', 'application/json');
+    res.send(swaggerSpecs);
 });
 
 app.listen(3000, () => {
