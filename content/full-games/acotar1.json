@@ -1,0 +1,300 @@
+{
+    "metadata": {
+        "title": "A Court of Thorns and Roses",
+        "description": "61 clues covering Sarah J. Maas's A Court of Thorns and Roses novels and A Court of Frost and Starlight, through A Court of Silver Flames. Contains spoilers. Difficulty rises within each category and from Single to Double to Final Jeopardy.",
+        "author": "Codex",
+        "date": "2026-09-21",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "Archerons and Their Ties",
+                "200": {
+                    "answer": "The youngest Archeron sister hunts to feed her family before entering the faerie world.",
+                    "question": "Who is Feyre Archeron?"
+                },
+                "400": {
+                    "answer": "The eldest Archeron sister takes center stage in A Court of Silver Flames.",
+                    "question": "Who is Nesta Archeron?"
+                },
+                "600": {
+                    "answer": "This middle Archeron sister prefers tending flowers to hunting in the woods.",
+                    "question": "Who is Elain Archeron?"
+                },
+                "800": {
+                    "answer": "Feyre and Rhysand give their newborn son this name in A Court of Silver Flames.",
+                    "question": "Who is Nyx?"
+                },
+                "1000": {
+                    "answer": "Elain's human engagement falls apart when this son of Lord Nolan discovers she has become Fae.",
+                    "question": "Who is Graysen?"
+                }
+            },
+            {
+                "title": "First Encounters",
+                "200": {
+                    "answer": "This High Lord of the Spring Court takes Feyre to his estate after she kills a wolf.",
+                    "question": "Who is Tamlin?"
+                },
+                "400": {
+                    "answer": "This violet-eyed High Lord rules the Night Court and later becomes Feyre's mate.",
+                    "question": "Who is Rhysand?"
+                },
+                "600": {
+                    "answer": "Tamlin's red-haired emissary has a magical metal eye and a fox mask when Feyre first meets him.",
+                    "question": "Who is Lucien?"
+                },
+                "800": {
+                    "answer": "Clythia's vengeful sister imposes the curse that leaves Tamlin's court wearing masks.",
+                    "question": "Who is Amarantha?"
+                },
+                "1000": {
+                    "answer": "Feyre traps this hooded, skeletal-looking creature to obtain information, but it ultimately becomes an unexpected source of guidance.",
+                    "question": "What is the Suriel?"
+                }
+            },
+            {
+                "title": "A Map of the Courts",
+                "200": {
+                    "answer": "The seven faerie courts lie in this land north of the Wall that separates them from the human territories.",
+                    "question": "What is Prythian?"
+                },
+                "400": {
+                    "answer": "Rhysand reveals this hidden city, also called the City of Starlight, to Feyre in A Court of Mist and Fury.",
+                    "question": "What is Velaris?"
+                },
+                "600": {
+                    "answer": "Keir presides over this cruel Night Court enclave, also known as the Hewn City.",
+                    "question": "What is the Court of Nightmares?"
+                },
+                "800": {
+                    "answer": "This river winds through Velaris, passing its neighborhoods and waterfront.",
+                    "question": "What is the Sidra?"
+                },
+                "1000": {
+                    "answer": "Tarquin's palace overlooks this Summer Court city and its harbor.",
+                    "question": "What is Adriata?"
+                }
+            },
+            {
+                "title": "The Inner Circle",
+                "200": {
+                    "answer": "This Illyrian general trains Nesta and commands the Night Court's armies.",
+                    "question": "Who is Cassian?"
+                },
+                "400": {
+                    "answer": "This shadowsinger serves as the Night Court's spymaster.",
+                    "question": "Who is Azriel?"
+                },
+                "600": {
+                    "answer": "Usually called Mor, this member of the Inner Circle is Keir's daughter and Rhysand's cousin.",
+                    "question": "Who is Morrigan?"
+                },
+                "800": {
+                    "answer": "This ancient member of the Inner Circle drinks blood before giving up her original form during the war with Hybern.",
+                    "question": "Who is Amren?"
+                },
+                "1000": {
+                    "answer": "These twin half-wraith sisters attend Feyre and also work as spies for the Night Court.",
+                    "question": "Who are Nuala and Cerridwen?"
+                }
+            },
+            {
+                "title": "Magic Has Its Rules",
+                "200": {
+                    "answer": "The High Lords resurrect Feyre as one of these faeries, the same class of Fae to which Tamlin and Rhysand belong.",
+                    "question": "What are the High Fae?"
+                },
+                "400": {
+                    "answer": "This magical connection identifies two people as mates; it links Feyre with Rhysand.",
+                    "question": "What is a mating bond?"
+                },
+                "600": {
+                    "answer": "Fae use this term for magically traveling from one place to another without crossing the intervening distance.",
+                    "question": "What is winnowing?"
+                },
+                "800": {
+                    "answer": "Feyre and Rhysand belong to this rare group of Fae who can enter, read, and influence other people's minds.",
+                    "question": "What are daemati?"
+                },
+                "1000": {
+                    "answer": "Cassian and Azriel wear these gemstones to channel and focus their Illyrian killing power.",
+                    "question": "What are Siphons?"
+                }
+            },
+            {
+                "title": "Celebrations and Customs",
+                "200": {
+                    "answer": "The gift-giving holiday celebrated in A Court of Frost and Starlight falls on this shortest day of the year.",
+                    "question": "What is the Winter Solstice?"
+                },
+                "400": {
+                    "answer": "During this Night Court celebration, luminous traveling spirits streak across the sky.",
+                    "question": "What is Starfall?"
+                },
+                "600": {
+                    "answer": "Also called Fire Night, this spring festival includes the Great Rite to replenish the land's magic.",
+                    "question": "What is Calanmai?"
+                },
+                "800": {
+                    "answer": "During this Spring Court collection, subjects must bring Tamlin goods or money; a water-wraith cannot supply enough fish.",
+                    "question": "What is the Tithe?"
+                },
+                "1000": {
+                    "answer": "After the theft in the Summer Court, Tarquin sends Feyre, Rhysand, and Amren these red jewels to declare a blood feud.",
+                    "question": "What are blood rubies?"
+                }
+            }
+        ]
+    },
+    "double-jeopardy": {
+        "categories": [
+            {
+                "title": "High Lords and Hidden Ties",
+                "400": {
+                    "answer": "Eris is the eldest son of this brutal High Lord of the Autumn Court.",
+                    "question": "Who is Beron?"
+                },
+                "800": {
+                    "answer": "Feyre's theft from this Summer Court High Lord undermines his initial hope of friendship with the Night Court.",
+                    "question": "Who is Tarquin?"
+                },
+                "1200": {
+                    "answer": "Feyre realizes that this High Lord of the Day Court, rather than Beron, is Lucien's biological father.",
+                    "question": "Who is Helion?"
+                },
+                "1600": {
+                    "answer": "Viviane protected the Winter Court during Amarantha's rule and later married this High Lord.",
+                    "question": "Who is Kallias?"
+                },
+                "2000": {
+                    "answer": "This healing-gifted High Lord hosts the wartime summit at his Dawn Court palace; his lover commands its Peregryn legion.",
+                    "question": "Who is Thesan?"
+                }
+            },
+            {
+                "title": "Relics with Consequences",
+                "400": {
+                    "answer": "Azriel lends Elain this named dagger, which she drives into the King of Hybern's neck before Nesta finishes him.",
+                    "question": "What is Truth-Teller?"
+                },
+                "800": {
+                    "answer": "Feyre seeks the separated halves of this metal-plated text to counter the Cauldron's power.",
+                    "question": "What is the Book of Breathings?"
+                },
+                "1200": {
+                    "answer": "The Bone Carver demands this named mirror, which forces its viewer to confront their true self.",
+                    "question": "What is the Ouroboros?"
+                },
+                "1600": {
+                    "answer": "When Nesta reaches Feyre as she is dying in childbirth, this Dread Trove relic lets her halt time.",
+                    "question": "What is the Harp?"
+                },
+                "2000": {
+                    "answer": "Nesta gives this name, meaning inner peace in the Old Language, to the great sword she Made.",
+                    "question": "What is Ataraxia?"
+                }
+            },
+            {
+                "title": "Enemies and Uneasy Bargains",
+                "400": {
+                    "answer": "This High Priestess helps arrange Feyre's aborted wedding and betrays the Archeron sisters to Hybern.",
+                    "question": "Who is Ianthe?"
+                },
+                "800": {
+                    "answer": "Feyre kills this bat-winged servant of Amarantha after he helps lead Hybern's attack on Velaris.",
+                    "question": "Who is the Attor?"
+                },
+                "1200": {
+                    "answer": "The Cauldron ages this mortal queen instead of restoring her youth, and she later uses the Crown against Cassian.",
+                    "question": "Who is Briallyn?"
+                },
+                "1600": {
+                    "answer": "This deathless sorcerer, brother to the Bone Carver and the Weaver, is confined to a lake on the Continent.",
+                    "question": "Who is Koschei?"
+                },
+                "2000": {
+                    "answer": "Feyre promises this being from the library's depths a window with a view of the sun and stars in return for wartime aid.",
+                    "question": "Who is Bryaxis?"
+                }
+            },
+            {
+                "title": "The Road through Silver Flames",
+                "400": {
+                    "answer": "This residence above Velaris becomes sentient, supplying Nesta with food, books, and companionship.",
+                    "question": "What is the House of Wind?"
+                },
+                "800": {
+                    "answer": "This Illyrian shopkeeper from Windhaven joins Nesta's training despite the lasting damage to her clipped wings.",
+                    "question": "Who is Emerie?"
+                },
+                "1200": {
+                    "answer": "This priestess, Catrin's twin sister, befriends Nesta in the library and helps revive Valkyrie training.",
+                    "question": "Who is Gwyneth Berdara?"
+                },
+                "1600": {
+                    "answer": "Gwyn introduces this Valkyrie practice of calming one's thoughts and focusing attention, which Nesta uses during training and battle.",
+                    "question": "What is mind-stilling?"
+                },
+                "2000": {
+                    "answer": "Nesta's stand on Ramiel echoes that of this ancient warrior, who defended the pass named for him for three days.",
+                    "question": "Who is Enalius?"
+                }
+            },
+            {
+                "title": "Echoes of the Ancient War",
+                "400": {
+                    "answer": "Amarantha keeps this human commander's eye in a ring before Hybern eventually restores him to life.",
+                    "question": "Who is Jurian?"
+                },
+                "800": {
+                    "answer": "This winged prince commands the Seraphim and brings his forces to aid Prythian against Hybern.",
+                    "question": "Who is Drakon?"
+                },
+                "1200": {
+                    "answer": "Once enslaved in the Black Land, this half-human, half-Fae healer leaves Jurian and becomes Drakon's mate.",
+                    "question": "Who is Miryam?"
+                },
+                "1600": {
+                    "answer": "Azriel tells Feyre of this cartographer whose small wings, once considered a weakness, let her rescue a wounded woman through a narrow escape route.",
+                    "question": "Who is Nephelle?"
+                },
+                "2000": {
+                    "answer": "Miryam and Drakon hide their people on this island, where humans and Fae live together and the Cauldron is taken after the war.",
+                    "question": "What is Cretea?"
+                }
+            },
+            {
+                "title": "Surviving the Trials",
+                "400": {
+                    "answer": "Feyre uses sharpened bones to kill this enormous, blind worm in her first trial Under the Mountain.",
+                    "question": "What is the Middengard Wyrm?"
+                },
+                "800": {
+                    "answer": "Known as the Weaver, this death-god sister of the Bone Carver inhabits the cottage from which Feyre must steal a ring.",
+                    "question": "Who is Stryga?"
+                },
+                "1200": {
+                    "answer": "An onyx monolith stands atop this sacred Illyrian mountain, the destination of warriors undertaking the Blood Rite.",
+                    "question": "What is Ramiel?"
+                },
+                "1600": {
+                    "answer": "Gwyn and Emerie earn this elite warrior rank by reaching the summit and touching its monolith during the Blood Rite.",
+                    "question": "What is Carynthian?"
+                },
+                "2000": {
+                    "answer": "Nesta earns this Blood Rite rank for reaching the mountain without attaining its summit, after remaining at the pass to defend her friends.",
+                    "question": "What is Oristian?"
+                }
+            }
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "An Ancient Language",
+            "answer": "The metal pages of the Book of Breathings use this named language, also called the Holy Tongue, which Amren recognizes from her own remote past.",
+            "question": "What is Leshon Hakodesh?"
+        }
+    }
+}

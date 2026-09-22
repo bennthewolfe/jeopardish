@@ -1,0 +1,300 @@
+{
+    "metadata": {
+        "title": "Star Wars: Beyond the Films",
+        "description": "61 clues from The Clone Wars, Rebels, The Mandalorian, Andor, Ahsoka, Jedi games, canon novels and comics, and Star Wars Legends. Categories labeled Legends use that separate continuity; all other categories use canon. Contains spoilers. Difficulty rises within each category and from Single to Double to Final Jeopardy.",
+        "author": "Codex",
+        "date": "2026-09-21",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "The Clone Wars",
+                "200": {
+                    "answer": "Anakin Skywalker's Togruta Padawan eventually leaves the Jedi Order in this animated series.",
+                    "question": "Who is Ahsoka Tano?"
+                },
+                "400": {
+                    "answer": "This clone captain, designated CT-7567, leads troops of the 501st alongside Anakin.",
+                    "question": "Who is Captain Rex?"
+                },
+                "600": {
+                    "answer": "This Dathomirian assassin serves Count Dooku before he betrays her, sending her back toward the Nightsisters.",
+                    "question": "Who is Asajj Ventress?"
+                },
+                "800": {
+                    "answer": "This Weequay pirate captures Dooku, Anakin, and Obi-Wan and hopes to collect ransoms for all three.",
+                    "question": "Who is Hondo Ohnaka?"
+                },
+                "1000": {
+                    "answer": "After investigating Tup's malfunctioning inhibitor chip, this clone trooper uncovers the conspiracy behind Order 66.",
+                    "question": "Who is Fives?"
+                }
+            },
+            {
+                "title": "Meet the Ghost Crew",
+                "200": {
+                    "answer": "This young rebel from Lothal becomes Kanan Jarrus's Jedi apprentice.",
+                    "question": "Who is Ezra Bridger?"
+                },
+                "400": {
+                    "answer": "This Twi'lek pilot commands the Ghost and helps lead the rebellion.",
+                    "question": "Who is Hera Syndulla?"
+                },
+                "600": {
+                    "answer": "This Mandalorian member of the crew expresses herself through colorful armor and graffiti.",
+                    "question": "Who is Sabine Wren?"
+                },
+                "800": {
+                    "answer": "This Lasat rebel, usually called Zeb, carries a weapon from his days in the Lasan Honor Guard.",
+                    "question": "Who is Garazeb Orrelios?"
+                },
+                "1000": {
+                    "answer": "Chopper is the nickname of the Ghost's cantankerous astromech; this is his letter-and-number designation.",
+                    "question": "What is C1-10P?"
+                }
+            },
+            {
+                "title": "The Mandalorian Trail",
+                "200": {
+                    "answer": "Often called the Child before his name is revealed, this small Force-sensitive being travels with the Mandalorian.",
+                    "question": "Who is Grogu?"
+                },
+                "400": {
+                    "answer": "Known to many simply as Mando, this bounty hunter becomes the Child's protector.",
+                    "question": "Who is Din Djarin?"
+                },
+                "600": {
+                    "answer": "Mandalorian armor is prized for plates of this metal, which can withstand lightsaber strikes.",
+                    "question": "What is beskar?"
+                },
+                "800": {
+                    "answer": "This former member of Death Watch, sister of Duchess Satine, seeks to reclaim Mandalore.",
+                    "question": "Who is Bo-Katan Kryze?"
+                },
+                "1000": {
+                    "answer": "Greef Karga becomes High Magistrate of this volcanic world, once a hub for the Bounty Hunters' Guild.",
+                    "question": "What is Nevarro?"
+                }
+            },
+            {
+                "title": "Worlds beyond the Trilogies",
+                "200": {
+                    "answer": "Duchess Satine tries to keep this homeworld of armored warrior clans neutral during the Clone Wars.",
+                    "question": "What is Mandalore?"
+                },
+                "400": {
+                    "answer": "Ezra's homeworld becomes the focus of the Ghost crew's struggle against Imperial occupation.",
+                    "question": "What is Lothal?"
+                },
+                "600": {
+                    "answer": "The Nightsisters and their distinctive magick are associated with this red-hued world visited in The Clone Wars.",
+                    "question": "What is Dathomir?"
+                },
+                "800": {
+                    "answer": "In Andor, Maarva's funeral turns into a confrontation with the Empire on this industrial world.",
+                    "question": "What is Ferrix?"
+                },
+                "1000": {
+                    "answer": "In Ahsoka, the search for Ezra and Thrawn leads to this world in another galaxy, once home to an ancient Nightsister civilization.",
+                    "question": "What is Peridea?"
+                }
+            },
+            {
+                "title": "Droids beyond R2",
+                "200": {
+                    "answer": "This reprogrammed Imperial security droid accompanies Cassian Andor on the mission in Rogue One.",
+                    "question": "Who is K-2SO?"
+                },
+                "400": {
+                    "answer": "This small explorer droid rides on Cal Kestis's back and supplies healing stims in the Jedi games.",
+                    "question": "Who is BD-1?"
+                },
+                "600": {
+                    "answer": "Kuiil reprograms this assassin droid as a nurse and protector before it sacrifices itself on Nevarro.",
+                    "question": "Who is IG-11?"
+                },
+                "800": {
+                    "answer": "This ancient droid teaches Jedi younglings to construct lightsabers and later travels with Ahsoka.",
+                    "question": "Who is Huyang?"
+                },
+                "1000": {
+                    "answer": "Chopper befriends this neglected Imperial inventory droid, who defects and helps the rebels find a base on Atollon.",
+                    "question": "Who is AP-5?"
+                }
+            },
+            {
+                "title": "Legends: Familiar Names",
+                "200": {
+                    "answer": "In Heir to the Empire, this blue-skinned, red-eyed Grand Admiral studies his enemies' art to understand them.",
+                    "question": "Who is Grand Admiral Thrawn?"
+                },
+                "400": {
+                    "answer": "This former Emperor's Hand eventually becomes a Jedi and marries Luke Skywalker in Legends.",
+                    "question": "Who is Mara Jade?"
+                },
+                "600": {
+                    "answer": "The protagonist of Knights of the Old Republic discovers that they were once this feared Sith Lord.",
+                    "question": "Who is Revan?"
+                },
+                "800": {
+                    "answer": "This assassin droid from Knights of the Old Republic labels organic beings meatbags.",
+                    "question": "Who is HK-47?"
+                },
+                "1000": {
+                    "answer": "This freighter serves as the player's traveling base in both original Knights of the Old Republic games.",
+                    "question": "What is the Ebon Hawk?"
+                }
+            }
+        ]
+    },
+    "double-jeopardy": {
+        "categories": [
+            {
+                "title": "Rebels: Hidden Connections",
+                "400": {
+                    "answer": "Thrawn champions this advanced TIE fighter with shields and a hyperdrive, whose production competes with the Death Star project.",
+                    "question": "What is the TIE Defender?"
+                },
+                "800": {
+                    "answer": "Ahsoka and later Agent Kallus use this shared intelligence codename while aiding the rebellion.",
+                    "question": "What is Fulcrum?"
+                },
+                "1200": {
+                    "answer": "This immense being on Atollon teaches the blinded Kanan and claims to occupy the middle between the light and dark.",
+                    "question": "Who is Bendu?"
+                },
+                "1600": {
+                    "answer": "Ezra reaches through a portal in this mystical realm to pull Ahsoka away from her duel with Vader on Malachor.",
+                    "question": "What is the World Between Worlds?"
+                },
+                "2000": {
+                    "answer": "Guided by his bo-rifle, Zeb helps rediscover this ancestral Lasat homeworld hidden beyond an energy anomaly.",
+                    "question": "What is Lira San?"
+                }
+            },
+            {
+                "title": "The Jedi Games: Canon",
+                "400": {
+                    "answer": "This former Padawan survives on Bracca as a scrapper before his use of the Force brings the Inquisitors after him in Jedi: Fallen Order.",
+                    "question": "Who is Cal Kestis?"
+                },
+                "800": {
+                    "answer": "This surviving Nightsister initially opposes Cal on Dathomir before becoming his ally.",
+                    "question": "Who is Merrin?"
+                },
+                "1200": {
+                    "answer": "This four-armed Latero pilots the Stinger Mantis and later runs Pyloon's Saloon on Koboh.",
+                    "question": "Who is Greez Dritus?"
+                },
+                "1600": {
+                    "answer": "Cal explores the tombs of Eilram and Miktrull while following the history of this ancient civilization.",
+                    "question": "Who are the Zeffo?"
+                },
+                "2000": {
+                    "answer": "In Jedi: Survivor, Dagan Gera's obsession centers on this hidden world beyond the Koboh Abyss.",
+                    "question": "What is Tanalorr?"
+                }
+            },
+            {
+                "title": "Legends: The Old Republic",
+                "400": {
+                    "answer": "This former apprentice of Revan rules the Sith forces from the Star Forge and wears a metal prosthesis over his missing jaw.",
+                    "question": "Who is Darth Malak?"
+                },
+                "800": {
+                    "answer": "The Republic depends on this Jedi's battle meditation during the first Knights of the Old Republic game.",
+                    "question": "Who is Bastila Shan?"
+                },
+                "1200": {
+                    "answer": "The Exile's enigmatic mentor in Knights of the Old Republic II once held the Sith title Darth Traya.",
+                    "question": "Who is Kreia?"
+                },
+                "1600": {
+                    "answer": "This species ruled the Infinite Empire and built the Star Forge long before the Republic's struggle with Malak.",
+                    "question": "Who are the Rakata?"
+                },
+                "2000": {
+                    "answer": "Later Legends works give the Jedi Exile, the protagonist of Knights of the Old Republic II, this full name.",
+                    "question": "Who is Meetra Surik?"
+                }
+            },
+            {
+                "title": "Legends: A New Jedi Generation",
+                "400": {
+                    "answer": "Han and Leia's youngest son leads the mission against the voxyn at Myrkr and dies during Star by Star.",
+                    "question": "Who is Anakin Solo?"
+                },
+                "800": {
+                    "answer": "This surviving Solo son, once a captive of the Yuuzhan Vong, later takes the Sith name Darth Caedus.",
+                    "question": "Who is Jacen Solo?"
+                },
+                "1200": {
+                    "answer": "After training with Boba Fett, this Jedi confronts and kills Darth Caedus in the novel Invincible.",
+                    "question": "Who is Jaina Solo?"
+                },
+                "1600": {
+                    "answer": "This Fosh, a former Jedi who lived among the Yuuzhan Vong, challenges Jacen's understanding of the Force in Traitor.",
+                    "question": "Who is Vergere?"
+                },
+                "2000": {
+                    "answer": "This living planet, introduced in Rogue Planet, becomes central to resolving the Yuuzhan Vong war in The Unifying Force.",
+                    "question": "What is Zonama Sekot?"
+                }
+            },
+            {
+                "title": "The High Republic",
+                "400": {
+                    "answer": "These marauders use secret hyperspace Paths and organize their forces into Tempests.",
+                    "question": "Who are the Nihil?"
+                },
+                "800": {
+                    "answer": "This vast space station, a symbol of Chancellor Lina Soh's Great Works, falls in the novel The Fallen Star.",
+                    "question": "What is Starlight Beacon?"
+                },
+                "1200": {
+                    "answer": "Known as the Eye, this leader secretly controls the Nihil's access to the Paths and unleashes the Leveler.",
+                    "question": "Who is Marchion Ro?"
+                },
+                "1600": {
+                    "answer": "This Jedi Master, the Hero of Hetzal, experiences the Force as music and becomes marshal of Starlight Beacon.",
+                    "question": "Who is Avar Kriss?"
+                },
+                "2000": {
+                    "answer": "The Nihil exploit this elderly member of a hyperspace-prospecting family for her ability to discover otherwise inaccessible routes.",
+                    "question": "Who is Mari San Tekka?"
+                }
+            },
+            {
+                "title": "Canon on the Page",
+                "400": {
+                    "answer": "This morally flexible archaeologist, first introduced in Marvel's Darth Vader comics, gets her own series alongside the murderous droids Triple-Zero and BT-1.",
+                    "question": "Who is Doctor Aphra?"
+                },
+                "800": {
+                    "answer": "This black-furred Wookiee bounty hunter works with Vader and Doctor Aphra in the comics before appearing in The Book of Boba Fett.",
+                    "question": "Who is Black Krrsantan?"
+                },
+                "1200": {
+                    "answer": "Introduced in the Aftermath novels, this lawman acquires Boba Fett's armor and later protects Mos Pelgo on screen.",
+                    "question": "Who is Cobb Vanth?"
+                },
+                "1600": {
+                    "answer": "In Timothy Zahn's canon Thrawn novel, this Wild Space cadet becomes Thrawn's translator and aide before joining the Chiss Ascendancy.",
+                    "question": "Who is Eli Vanto?"
+                },
+                "2000": {
+                    "answer": "In the Thrawn novels, the Chiss use this Basic-language term for young Force-sensitive navigators who guide ships through the Unknown Regions.",
+                    "question": "What are sky-walkers?"
+                }
+            }
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "Legends: Across Zahn's Novels",
+            "answer": "A young smuggler encountered by Thrawn in Outbound Flight, this man later becomes the elusive former employer whom Talon Karrde finds on Exocron in Vision of the Future.",
+            "question": "Who is Jorj Car'das?"
+        }
+    }
+}

@@ -1,0 +1,300 @@
+{
+    "metadata": {
+        "title": "Harry Potter: The Wider Wizarding World",
+        "description": "61 clues spanning the seven Harry Potter novels, Fantastic Beasts films and companion books, Hogwarts Legacy, and J. K. Rowling's published wizarding-world lore. Game-specific and film-specific clues identify their source. Contains spoilers. Difficulty rises within each category and from Single to Double to Final Jeopardy.",
+        "author": "Codex",
+        "date": "2026-09-21",
+        "version": "1.0"
+    },
+    "single-jeopardy": {
+        "categories": [
+            {
+                "title": "Hogwarts between the Pages",
+                "200": {
+                    "answer": "This enchanted piece of headwear assigns new Hogwarts students to their houses.",
+                    "question": "What is the Sorting Hat?"
+                },
+                "400": {
+                    "answer": "This Hogwarts founder valued hard work and loyalty, and her house uses a badger as its emblem.",
+                    "question": "Who is Helga Hufflepuff?"
+                },
+                "600": {
+                    "answer": "This mischievous Hogwarts poltergeist pelts people with objects and delights in defying authority in the novels.",
+                    "question": "Who is Peeves?"
+                },
+                "800": {
+                    "answer": "In Goblet of Fire, Barty Crouch dismisses this house-elf, who later works in the Hogwarts kitchens.",
+                    "question": "Who is Winky?"
+                },
+                "1000": {
+                    "answer": "In Prisoner of Azkaban, this portrait knight temporarily replaces the Fat Lady and keeps changing the Gryffindor passwords.",
+                    "question": "Who is Sir Cadogan?"
+                }
+            },
+            {
+                "title": "A Spell for the Occasion",
+                "200": {
+                    "answer": "This incantation lights the tip of a wand.",
+                    "question": "What is Lumos?"
+                },
+                "400": {
+                    "answer": "Harry uses this Summoning Charm to call his Firebolt during the first Triwizard task.",
+                    "question": "What is Accio?"
+                },
+                "600": {
+                    "answer": "This incantation defeats a boggart by helping transform its frightening appearance into something funny.",
+                    "question": "What is Riddikulus?"
+                },
+                "800": {
+                    "answer": "A spell Harry finds in the Half-Blood Prince's textbook, this incantation fills nearby ears with buzzing to conceal conversations.",
+                    "question": "What is Muffliato?"
+                },
+                "1000": {
+                    "answer": "Hermione casts this incantation at Grimmauld Place in Deathly Hallows to check for a human presence.",
+                    "question": "What is Homenum Revelio?"
+                }
+            },
+            {
+                "title": "Fantastic Beasts in the Suitcase",
+                "200": {
+                    "answer": "Newt repeatedly chases this small, long-snouted beast because it cannot resist stealing shiny objects.",
+                    "question": "What is a Niffler?"
+                },
+                "400": {
+                    "answer": "Frank, the large bird Newt intends to return to Arizona, belongs to this species that can create storms.",
+                    "question": "What is a Thunderbird?"
+                },
+                "600": {
+                    "answer": "Pickett, Newt's tiny green companion, is one of these twig-like creatures that guard wand-wood trees.",
+                    "question": "What is a Bowtruckle?"
+                },
+                "800": {
+                    "answer": "Newt's creature Dougal belongs to this silvery-haired species, whose members can become invisible and foresee probable events.",
+                    "question": "What is a Demiguise?"
+                },
+                "1000": {
+                    "answer": "This winged, serpentine creature can expand or shrink to fit available space; its eggs have silver shells.",
+                    "question": "What is an Occamy?"
+                }
+            },
+            {
+                "title": "Newt and Company",
+                "200": {
+                    "answer": "This magizoologist arrives in New York carrying a suitcase full of magical creatures in Fantastic Beasts and Where to Find Them.",
+                    "question": "Who is Newt Scamander?"
+                },
+                "400": {
+                    "answer": "This non-magical aspiring baker accidentally exchanges suitcases with Newt.",
+                    "question": "Who is Jacob Kowalski?"
+                },
+                "600": {
+                    "answer": "This American witch, Queenie's sister, works for MACUSA and helps Newt track his escaped creatures.",
+                    "question": "Who is Tina Goldstein?"
+                },
+                "800": {
+                    "answer": "This naturally gifted Legilimens can read Jacob's thoughts and eventually falls in love with him.",
+                    "question": "Who is Queenie Goldstein?"
+                },
+                "1000": {
+                    "answer": "This Auror, Newt's older brother, is engaged to Leta Lestrange in The Crimes of Grindelwald.",
+                    "question": "Who is Theseus Scamander?"
+                }
+            },
+            {
+                "title": "Hogwarts Legacy: Classmates",
+                "200": {
+                    "answer": "This Slytherin student turns toward the Dark Arts while trying to cure his twin sister Anne.",
+                    "question": "Who is Sebastian Sallow?"
+                },
+                "400": {
+                    "answer": "This Hufflepuff student's love of magical beasts draws the player into a struggle against poachers.",
+                    "question": "Who is Poppy Sweeting?"
+                },
+                "600": {
+                    "answer": "Nicknamed Natty, this Gryffindor transferred to Hogwarts from Uagadou.",
+                    "question": "Who is Natsai Onai?"
+                },
+                "800": {
+                    "answer": "This blind Slytherin, a descendant of Salazar Slytherin, opposes his friend Sebastian's reckless use of Dark Magic.",
+                    "question": "Who is Ominis Gaunt?"
+                },
+                "1000": {
+                    "answer": "This astronomy-loving Ravenclaw helps the player begin using Astronomy Tables and later assists with interpreting goblin writing.",
+                    "question": "Who is Amit Thakkar?"
+                }
+            },
+            {
+                "title": "Getting from Here to There",
+                "200": {
+                    "answer": "A pinch of this substance lets witches and wizards travel through connected fireplaces.",
+                    "question": "What is Floo powder?"
+                },
+                "400": {
+                    "answer": "The old boot that carries Harry and the Weasleys to the Quidditch World Cup is this kind of enchanted transport object.",
+                    "question": "What is a Portkey?"
+                },
+                "600": {
+                    "answer": "This purple triple-decker vehicle provides emergency transportation for stranded witches and wizards.",
+                    "question": "What is the Knight Bus?"
+                },
+                "800": {
+                    "answer": "Apparition can cause this injury, in which a traveler leaves part of their body behind.",
+                    "question": "What is splinching?"
+                },
+                "1000": {
+                    "answer": "Madame Maxime's carriage is pulled by giant winged horses of this breed, which Hagrid supplies with single-malt whisky.",
+                    "question": "What are Abraxans?"
+                }
+            }
+        ]
+    },
+    "double-jeopardy": {
+        "categories": [
+            {
+                "title": "Details from the Seven Novels",
+                "400": {
+                    "answer": "The initials R.A.B. in the false Horcrux locket stand for this younger brother of Sirius.",
+                    "question": "Who is Regulus Arcturus Black?"
+                },
+                "800": {
+                    "answer": "Tom Riddle steals Hufflepuff's cup after murdering this collector, whose house-elf Hokey is blamed.",
+                    "question": "Who is Hepzibah Smith?"
+                },
+                "1200": {
+                    "answer": "Voldemort alters the memory of this maternal uncle so that he takes responsibility for the Riddle family's murders.",
+                    "question": "Who is Morfin Gaunt?"
+                },
+                "1600": {
+                    "answer": "This Unspeakable is strangled at St Mungo's by Devil's Snare disguised as a potted gift in Order of the Phoenix.",
+                    "question": "Who is Broderick Bode?"
+                },
+                "2000": {
+                    "answer": "This Ministry instructor teaches Harry's year the three Ds of Apparition: Destination, Determination, and Deliberation.",
+                    "question": "Who is Wilkie Twycross?"
+                }
+            },
+            {
+                "title": "International Magical Education",
+                "400": {
+                    "answer": "Founded on Mount Greylock, this North American school sorts students into four houses including Horned Serpent and Wampus.",
+                    "question": "What is Ilvermorny?"
+                },
+                "800": {
+                    "answer": "This African school sends Dream Messengers to notify new pupils and has a strong tradition of wandless magic.",
+                    "question": "What is Uagadou?"
+                },
+                "1200": {
+                    "answer": "This Brazilian school is hidden in the rainforest, and its green-robed students excel in Herbology and Magizoology.",
+                    "question": "What is Castelobruxo?"
+                },
+                "1600": {
+                    "answer": "Students too young to board at this Japanese school travel on giant storm petrels; its enchanted robes change color as learning advances.",
+                    "question": "What is Mahoutokoro?"
+                },
+                "2000": {
+                    "answer": "These small, mischievous forest beings emerge at night to guard Castelobruxo's students and grounds.",
+                    "question": "What are Caipora?"
+                }
+            },
+            {
+                "title": "Fantastic Beasts: Closer Inspection",
+                "400": {
+                    "answer": "At his Paris home in The Crimes of Grindelwald, Jacob meets this long-lived alchemist, who later helps contain Grindelwald's magical fire.",
+                    "question": "Who is Nicolas Flamel?"
+                },
+                "800": {
+                    "answer": "Grindelwald impersonates this MACUSA official while searching New York for an Obscurial in the first Fantastic Beasts film.",
+                    "question": "Who is Percival Graves?"
+                },
+                "1200": {
+                    "answer": "This President of MACUSA orders Newt's creatures seized during the 1926 New York crisis.",
+                    "question": "Who is Seraphina Picquery?"
+                },
+                "1600": {
+                    "answer": "Grindelwald uses this Austrian castle as his base in the Fantastic Beasts films; in the Harry Potter novels, it becomes his prison.",
+                    "question": "What is Nurmengard?"
+                },
+                "2000": {
+                    "answer": "This former MACUSA supervisor secretly assists Grindelwald's escape during the prisoner transfer at the start of The Crimes of Grindelwald.",
+                    "question": "Who is Abernathy?"
+                }
+            },
+            {
+                "title": "Hogwarts Legacy: Ancient Magic",
+                "400": {
+                    "answer": "This goblin rebellion leader seeks the stored ancient magic beneath Hogwarts and allies himself with Victor Rookwood.",
+                    "question": "Who is Ranrok?"
+                },
+                "800": {
+                    "answer": "This ghost leads the player toward the cave containing his remains; exploring it reveals the route to the Map Chamber.",
+                    "question": "Who is Richard Jackdaw?"
+                },
+                "1200": {
+                    "answer": "The Keepers' memories reveal that this former professor extracted emotional pain and stored the resulting magic in repositories.",
+                    "question": "Who is Isidora Morganach?"
+                },
+                "1600": {
+                    "answer": "This former Hogwarts headmistress sets a trial that takes the player through a storybook world inspired by the Deathly Hallows.",
+                    "question": "Who is Niamh Fitzgerald?"
+                },
+                "2000": {
+                    "answer": "To complete this Keeper's trial, the player must subdue the Graphorn called the Lord of the Shore and bring it to the Pensieve chamber entrance.",
+                    "question": "Who is San Bakar?"
+                }
+            },
+            {
+                "title": "Companion-Book Deep Cuts",
+                "400": {
+                    "answer": "This wizarding storyteller is credited with tales including The Fountain of Fair Fortune and Babbity Rabbity and Her Cackling Stump.",
+                    "question": "Who is Beedle the Bard?"
+                },
+                "800": {
+                    "answer": "Quidditch Through the Ages explains that this tiny, round bird was pursued in early matches before a metal ball replaced it.",
+                    "question": "What is the Golden Snidget?"
+                },
+                "1200": {
+                    "answer": "This fictional sporting historian is the credited author of Quidditch Through the Ages.",
+                    "question": "Who is Kennilworthy Whisp?"
+                },
+                "1600": {
+                    "answer": "In Newt's Fantastic Beasts textbook, Flavius Belby's account describes using a Patronus to repel this cloak-like creature that suffocates sleeping victims.",
+                    "question": "What is a Lethifold?"
+                },
+                "2000": {
+                    "answer": "Quidditch Through the Ages records that this witch rescued a Snidget from a match by summoning it to herself and releasing it.",
+                    "question": "Who is Modesty Rabnott?"
+                }
+            },
+            {
+                "title": "American Magical History",
+                "400": {
+                    "answer": "This Irish witch escaped her cruel aunt, crossed the Atlantic, and helped found Ilvermorny.",
+                    "question": "Who is Isolt Sayre?"
+                },
+                "800": {
+                    "answer": "This No-Maj husband of Ilvermorny's founder helped establish the school; its cranberry-colored robes honor his fondness for cranberry pie.",
+                    "question": "Who is James Steward?"
+                },
+                "1200": {
+                    "answer": "Named for a MACUSA president, this 1790 law enforced separation between magical and non-magical Americans until its repeal in 1965.",
+                    "question": "What is Rappaport's Law?"
+                },
+                "1600": {
+                    "answer": "This aunt of Ilvermorny's founder follows her to America and uses Parseltongue to disable the stolen Slytherin wand.",
+                    "question": "Who is Gormlaith Gaunt?"
+                },
+                "2000": {
+                    "answer": "Named after the founder's father, this Pukwudgie kills her attacking aunt with a poisoned arrow and becomes associated with the school's protection.",
+                    "question": "Who is William?"
+                }
+            }
+        ]
+    },
+    "final-jeopardy": {
+        "category": {
+            "title": "American Wandmakers",
+            "answer": "President Picquery owned a wand by this New Orleans maker, whose characteristic swamp mayhaw wood concealed a core of rougarou hair.",
+            "question": "Who is Violetta Beauvais?"
+        }
+    }
+}

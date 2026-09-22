@@ -310,8 +310,8 @@ class ChatGPTMessage {
     getPlainObject() {
         return {
             "messages": [
-                { role: "system", content: this.context },
-                { role: "user", content: this.message }
+                { "role": "system", content: this.context },
+                { "role": "user", content: this.message }
             ]
         };
     }
@@ -345,8 +345,12 @@ function testChatGPT(message = null) {
         url: 'http://localhost:3000/chatgpt',
         data: chatGPTMessageObj.getPlainObject(),
         success: function (response) {
+            parsedResponse = JSON.parse(response);
             console.log('Successful response from ChatGPT.');
-            console.log(JSON.parse(response));
+            console.log(parsedResponse);
+            for (const choice of parsedResponse.choices) {
+                console.log(`Content: ${choice.message.content}`);
+            }
         },
         fail: function (error) {
             console.log("An error has occurred.");

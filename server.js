@@ -26,10 +26,12 @@ app.use(express.urlencoded({
     extended: true
 }));
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(helmet({
+    crossOriginResourcePolicy: false,
+    contentSecurityPolicy: false,
+}));
+app.use(express.static(path.join(__dirname)));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
-// Helmet for security headers
-app.use(helmet());
 
 /**
  * @openapi
@@ -269,6 +271,10 @@ app.post('/chatgpt', async (req, res) => {
  *                   type: object
  */
 // Serve the OpenAPI specification as JSON
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'jeopardish.html'));
+});
+
 app.get('/openapi.json', (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     res.send(swaggerSpecs);
